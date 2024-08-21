@@ -11,9 +11,7 @@ import CaravanDetail from "./components/caravan/detail";
 import TuningDetail from "./components/tuning/detail";
 import UsedCarDetail from "./components/usedCar/detail";
 import CampingDetail from "./components/camping/detail";
-import UseStateComponent from "./components/motor/useState";
-import Hmenu from "./components/motor/menu/Hmenu";
-import Vmenu from "./components/motor/menu/Vmenu";
+
 
 const RouterComponent = () => {
   return (
@@ -28,9 +26,6 @@ const RouterComponent = () => {
       <Route path="/usedCar/:id" element={<UsedCarDetail />} />
       <Route path="/camping" element={<CampingPlaceComponent />} />
       <Route path="/camping/:id" element={<CampingDetail />} />
-      {/* <Route path="/motor" element={<UseStateComponent />} /> */}
-      {/* <Route path="/Hmenu" element={<Hmenu />} />
-      <Route path="/Vmenu" element={<Vmenu />} /> */}
       <Route path="*" element={<NotFoundComponent />} />
     </Routes>
   );

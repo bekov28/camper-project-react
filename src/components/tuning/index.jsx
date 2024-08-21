@@ -1,5 +1,35 @@
-import React from "react";
-import { BackgroundImg, BrandCon, BrandConMain, Button, ButtonCon, CarBtn, CarOneCon, CarWrapper, CompanyCon, CompareCon, CostOfCar, ItemCon, ItemContainer, ItemFirstCon, LicenseCon, LocationCon, MainBodyCon, MainItemCon, NoShow, NumberCon, SelectCon, SelectCon2, SideBarCon, SixtyCon, SixtyCon2, SortCon, SortConRight, StarCon, TwoIconCon } from "../styles/style";
+import React, { useState } from "react";
+import {
+  BackgroundImg,
+  BrandCon,
+  BrandConMain,
+  Button,
+  ButtonCon,
+  CarBtn,
+  CarOneCon,
+  CarWrapper,
+  CompanyCon,
+  CompareCon,
+  CostOfCar,
+  ItemCon,
+  ItemContainer,
+  ItemFirstCon,
+  LicenseCon,
+  LocationCon,
+  MainBodyCon,
+  MainItemCon,
+  NoShow,
+  NumberCon,
+  SelectCon,
+  SelectCon2,
+  SideBarCon,
+  SixtyCon,
+  SixtyCon2,
+  SortCon,
+  SortConRight,
+  StarCon,
+  TwoIconCon,
+} from "../styles/style";
 import arrow from "../../assets/big-arrow.svg";
 import car1 from "../../assets/img-1.png";
 import car2 from "../../assets/img-1.png";
@@ -11,11 +41,23 @@ import { Link } from "react-router-dom";
 import star from "../../assets/star.svg";
 import { campcarTuning } from "../mock/mockdatatuning";
 import { BackgroundTuning, BrandConMainTuning, CarTuningCon } from "./style";
-
+import Hmenu from "./menu/Hmenu";
+import Vmenu from "./menu/Vmenu";
 
 const TuningComponent = () => {
-  const data=campcarTuning.maindata;
+  const data = campcarTuning.maindata;
   console.log(data);
+
+  const [active, setActive] = useState(true);
+
+  function handleTuning() {
+    setActive(true);
+  }
+
+  function handleClick() {
+    setActive(false);
+  }
+
   return (
     <div>
       <BackgroundTuning>
@@ -24,7 +66,7 @@ const TuningComponent = () => {
         <h1 className="back-h1">Tuning</h1>
       </BackgroundTuning>
       <MainBodyCon>
-      <SideBarCon>
+        <SideBarCon>
           <CostOfCar>
             <h3 className="h3-style">Cost of car</h3>
             <div className="FromTwoCon">
@@ -167,11 +209,11 @@ const TuningComponent = () => {
                   </SixtyCon>
                 </SortCon>
                 <TwoIconCon>
-                <button className="GridStyle">
+                  <button onClick={handleTuning} className="GridStyle">
                     {" "}
                     <img src={grid} alt="grid-icon" />
                   </button>
-                  <button className="RoundStyle">
+                  <button onClick={handleClick} className="RoundStyle">
                     <img src={round} alt="round-icon" />
                   </button>
                 </TwoIconCon>
@@ -189,49 +231,7 @@ const TuningComponent = () => {
               <img src={arrow} alt="" />
             </SixtyCon2>
           </NoShow>
-          <div>
-            <CarWrapper>
-              {data.map((value, index) => {
-                return (
-                  <div key={index}>
-                    <Link
-                      to={`/tuning/${value.id}`}
-                      style={{ textDecoration: "none", color: "black" }}
-                    >
-                      <CarTuningCon>
-                        <div>
-                          <img src={value.car.photo} />
-                        </div>
-                        <div>
-                          <h3 className="carName">{value.car.name}</h3>
-                        </div>
-                        <BrandConMainTuning>
-                          <p>
-                            <div>{value.car.company}</div>
-                          </p>
-                          <StarCon>
-                            <img src={star} alt="star-icon" />
-                            <p>
-                              {" "}
-                              <div>{value.car.rate}</div>
-                            </p>
-                          </StarCon>
-                        </BrandConMainTuning>
-                        <h4>
-                          <div>{value.car.cost}</div>
-                        </h4>
-                        <CarBtn>
-                          <Button className="order-blue">Order</Button>
-                          <Button className="compare-btn">Compare</Button>
-                          <Button className="view-detail-btn">View Detail</Button>
-                        </CarBtn>
-                      </CarTuningCon>
-                    </Link>
-                  </div>
-                );
-              })}
-            </CarWrapper>
-          </div>
+          <div>{active ? <Hmenu /> : <Vmenu />}</div>
         </MainItemCon>
       </MainBodyCon>
     </div>

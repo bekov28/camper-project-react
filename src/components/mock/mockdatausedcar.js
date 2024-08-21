@@ -11,7 +11,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco T7400SBC",
-        cost: "70,200,000",
+        cost: "40,200,000",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
@@ -41,7 +41,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img3}`,
         name: "Knaus Live Wave 650",
-        cost: "63,700,000",
+        cost: "43,700,000",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
@@ -71,7 +71,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg CaraBus 600",
-        cost: "63,700,000",
+        cost: "43,700,000",
         type: "르노마스터",
         license: "1종 보통",
         people: "5인",
@@ -101,7 +101,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img4}`,
         name: "Autostar P730LC",
-        cost: "66,100,000",
+        cost: "46,100,000",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
@@ -131,7 +131,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg CaraBus 600",
-        cost: "65,300,000",
+        cost: "45,300,000",
         type: "포터",
         license: "2종 보통",
         people: "6인",
@@ -161,7 +161,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco T7400SBC",
-        cost: "73,700,000",
+        cost: "43,700,000",
         type: "포터",
         license: "2종 보통",
         people: "6인",
@@ -191,7 +191,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg CaraBus 600",
-        cost: "62,600,000",
+        cost: "42,600,000",
         type: "포터",
         license: "2종 보통",
         people: "3인",
@@ -221,7 +221,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco T7400SBC",
-        cost: "72,900,000",
+        cost: "32,900,000",
         type: "봉고",
         license: "2종 보통",
         people: "6인",
@@ -251,7 +251,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img5}`,
         name: "Chausson Titanium",
-        cost: "5,200,000",
+        cost: "35,200,000",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -281,7 +281,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img4}`,
         name: "Autostar P730LC",
-        cost: "62,800,000",
+        cost: "32,800,000",
         type: "이베코 뉴데일리",
         license: "1종 보통",
         people: "6인",
@@ -311,7 +311,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img5}`,
         name: "Chausson Titanium",
-        cost: "142,800,000",
+        cost: "32,800,000",
         type: "이베코 뉴데일리",
         license: "1종 보통",
         people: "6인",
@@ -341,7 +341,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg CaraBus 600",
-        cost: "69,000,000",
+        cost: "39,000,000",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -371,7 +371,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img3}`,
         name: "Knaus Live Wave 650",
-        cost: "66,100,000",
+        cost: "36,100,000",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
@@ -401,7 +401,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco T7400SBC",
-        cost: "70,000,000",
+        cost: "40,000,000",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
@@ -431,7 +431,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco T7400SBC",
-        cost: "69,900,000",
+        cost: "29,900,000",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -461,7 +461,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg CaraBus 600",
-        cost: "59,900,000",
+        cost: "29,900,000",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -491,7 +491,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco T7400SBC",
-        cost: "59,000,000",
+        cost: "29,000,000",
         type: "포터",
         license: "2종 보통",
         people: "3인",
@@ -521,7 +521,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg CaraBus 600",
-        cost: "59,000,000",
+        cost: "39,000,000",
         type: "포터",
         license: "2종 보통",
         people: "3인",
@@ -551,7 +551,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco T7400SBC",
-        cost: "63,000,000",
+        cost: "33,000,000",
         type: "포터",
         license: "2종 보통",
         people: " 6인",
@@ -581,7 +581,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img3}`,
         name: "Knaus Live Wave 650",
-        cost: "66,000,000",
+        cost: "36,000,000",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -611,7 +611,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco T7400SBC",
-        cost: "65,000,000",
+        cost: "45,000,000",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
@@ -641,7 +641,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco T7400SBC",
-        cost: "67,000,000",
+        cost: "37,000,000",
         type: "르노마스터",
         license: "1종 보통",
         people: "5인",
@@ -671,7 +671,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg CaraBus 600",
-        cost: "64,000,000",
+        cost: "34,000,000",
         type: "포터",
         license: " 2종 보통",
         people: "6인",
@@ -701,7 +701,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco T7400SBC",
-        cost: "66,000,000",
+        cost: "36,000,000",
         type: "봉고",
         license: "2종 보통",
         people: "5인",

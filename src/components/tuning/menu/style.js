@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
-export const VmenuWrapper = styled.div`
+export const VmenuTuning = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-top: 20px;
+  display: flex;
 
   @media only screen and (max-width: 800px) {
     justify-content: center;
@@ -12,7 +13,14 @@ export const VmenuWrapper = styled.div`
   }
 `;
 
-export const NameWrapper = styled.div`
+export const ImgConTuning = styled.div`
+  width: 260px;
+  img {
+    width: 190px;
+  }
+`;
+
+export const NameWrapperTuning = styled.div`
   width: 955px;
   height: 180px;
   flex-shrink: 0;
@@ -33,31 +41,7 @@ export const NameWrapper = styled.div`
   }
 `;
 
-export const TwoIconCon = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  width: 80px;
-  padding: 5px;
-  button {
-    padding: 4px;
-    height: 30px;
-    border: 1px solid rgba(55, 55, 55, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-  }
-  .GridStyle {
-    border-radius: 5px 0px 0px 5px;
-  }
-  .RoundStyle {
-    border-radius: 0px 5px 5px 0px;
-  }
-`;
-
-export const CarMainCon = styled.div`
+export const CarMainConTuning = styled.div`
   display: flex;
   flex-direction: column;
   align-items: top;
@@ -79,7 +63,7 @@ export const CarMainCon = styled.div`
     line-height: normal;
   }
 `;
-export const AlingCon = styled.div`
+export const AlingConTuning = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -88,8 +72,8 @@ export const AlingCon = styled.div`
   }
 `;
 
-export const NameCon = styled.div``;
-export const RateCon = styled.div`
+export const NameConTuning = styled.div``;
+export const RateConTuning = styled.div`
   h3 {
     color: var(--blue, #006dab);
     font-size: 22px;
@@ -113,7 +97,7 @@ export const RateCon = styled.div`
     line-height: normal;
   }
 `;
-export const CarRate = styled.div`
+export const CarRateTuning = styled.div`
   color: var(--text, #373737);
   font-size: 12px;
   font-style: normal;
@@ -125,7 +109,7 @@ export const CarRate = styled.div`
   }
 `;
 
-export const ButtonContainer = styled.div`
+export const ButtonContainerTun = styled.div`
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -164,7 +148,7 @@ export const ButtonContainer = styled.div`
   }
 `;
 
-export const LocationDiv = styled.div`
+export const LocationDivTun = styled.div`
   display: none;
   justify-content: space-around;
   p {
@@ -177,5 +161,4 @@ export const LocationDiv = styled.div`
   @media only screen and (max-width: 800px) {
     display: flex;
   }
-
 `;

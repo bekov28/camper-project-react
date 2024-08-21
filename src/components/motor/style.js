@@ -23,5 +23,4 @@ export const CarOneCon = styled.div`
 `;
 export const BrandConMain = styled.div``;
 export const StarCon = styled.div``;
-export const CarBtn = styled.div``;
-export const Button=styled.button``;
+

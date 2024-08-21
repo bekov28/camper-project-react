@@ -1,54 +1,21 @@
 import React from "react";
 import "../../styles/style";
-import {
-  BackgroundImg,
-  BrandCon,
-  BrandConMain,
-  ButtonCon,
-  CarBtn,
-  CarOneCon,
-  CarWrapper,
-  CompanyCon,
-  CompareCon,
-  CostOfCar,
-  GridIcon,
-  ItemCon,
-  ItemContainer,
-  ItemFirstCon,
-  LicenseCon,
-  LocationCon,
-  MainBodyCon,
-  MainItemCon,
-  NoShow,
-  NumberCon,
-  RoundIcon,
-  SelectCon,
-  SelectCon2,
-  SideBarCon,
-  SixtyCon,
-  SixtyCon2,
-  SortCon,
-  SortConRight,
-  StarCon,
-  TwoIconCon,
-} from "../../styles/style";
-import arrow from "../../../assets/big-arrow.svg";
-import car1 from "../../../assets/img-1.png";
-import car2 from "../../../assets/img-1.png";
-import car3 from "../../../assets/img-1.png";
-import itemarrow from "../../../assets/item-arrow.svg";
-import grid from "../../motor/menu/assets/grid.svg";
-import round from "../../motor/menu/assets/vmenu.svg";
-// import wrappercar1 from "../../assets/car-1.png";
-import star from "../../../assets/star.svg";
-// import wrappercar3 from "../../assets/car-3.png";
-// import wrappercar2 from "../../assets/car-2.png";
-// import wrappercar4 from "../../assets/car-4.png";
-import { campcar } from "../../mock/motor";
+import { StarCon, TwoIconCon } from "../../styles/style";
+
 import { Link } from "react-router-dom";
-import { Button } from "../style";
-import { VmenuWrapper } from "./style";
+import {
+  AlingCon,
+  ButtonContainer,
+  CarMainCon,
+  CarRate,
+  LocationDiv,
+  NameCon,
+  NameWrapper,
+  RateCon,
+  VmenuWrapper,
+} from "./style";
 import { campcarVmenu } from "../../mock/mockdataVmenu";
+import star from "../../../assets/star.svg";
 
 const Vmenu = () => {
   const data = campcarVmenu.maindata;
@@ -64,13 +31,34 @@ const Vmenu = () => {
                   to={`/menu/${value.id}`}
                   style={{ textDecoration: "none", color: "black" }}
                 >
-                  <CarWrapper>
-                    <img src={value.car.photo} />
+                  <NameWrapper>
                     <div>
-                      <div></div>
-                      <div></div>
+                      <img src={value.car.photo} />
                     </div>
-                  </CarWrapper>
+                    <CarMainCon>
+                      <AlingCon>
+                        <NameCon>
+                          <h3 className="NameCar">{value.car.name}</h3>
+                          <p className="CompanyCar">{value.car.company}</p>
+                        </NameCon>
+                        <RateCon>
+                          <h3>{value.car.cost}</h3>
+                          <StarCon>
+                            <img src={star} alt="star-icon" />
+                            <CarRate>{value.car.rate}</CarRate>
+                          </StarCon>
+                        </RateCon>
+                      </AlingCon>
+                      <ButtonContainer>
+                        <button className="OrderBtn">Order</button>
+                        <button>Сompare</button>
+                      </ButtonContainer>
+                      <LocationDiv>
+                        <p>Location: {value.car.location}</p>
+                        <p>People: {value.car.people}</p>
+                      </LocationDiv>
+                    </CarMainCon>
+                  </NameWrapper>
                 </Link>
               </div>
             );

@@ -1,48 +1,32 @@
 import React from "react";
-import {
-  BrandConMain,
-  Button,
-  CarBtn,
-  CarOneCon,
-  CarWrapper,
-  ItemCon,
-  ItemContainer,
-  ItemFirstCon,
-  SelectCon,
-  SixtyCon,
-  SortCon,
-  SortConRight,
-  StarCon,
-  TwoIconCon,
-} from "../../styles/style";
+import { campcarTuning } from "../../mock/mockdatatuning";
+import { BrandConMainTuning, CarTuningCon } from "../style";
+import { Button, CarBtn, CarWrapper, StarCon } from "../../styles/style";
 import { Link } from "react-router-dom";
 import star from "../../../assets/star.svg";
-import { campcar } from "../../mock/motor";
-import itemarrow from "../../../assets/item-arrow.svg";
 
 const Hmenu = () => {
-  const data = campcar.maindata;
+  const data = campcarTuning.maindata;
   console.log(data);
 
   return (
-    
     <div>
       <CarWrapper>
         {data.map((value, index) => {
           return (
             <div key={index}>
               <Link
-                to={`/motor/${value.id}`}
+                to={`/tuning/${value.id}`}
                 style={{ textDecoration: "none", color: "black" }}
               >
-                <CarOneCon>
+                <CarTuningCon>
                   <div>
                     <img src={value.car.photo} />
                   </div>
                   <div>
                     <h3 className="carName">{value.car.name}</h3>
                   </div>
-                  <BrandConMain>
+                  <BrandConMainTuning>
                     <p>
                       <div>{value.car.company}</div>
                     </p>
@@ -53,16 +37,16 @@ const Hmenu = () => {
                         <div>{value.car.rate}</div>
                       </p>
                     </StarCon>
-                  </BrandConMain>
+                  </BrandConMainTuning>
                   <h4>
                     <div>{value.car.cost}</div>
                   </h4>
                   <CarBtn>
-                    <button className="order-blue">Order</button> 
-                    <button className="compare-btn">Compare</button>
-                    <button className="view-detail-btn">View Detail</button>
+                    <Button className="order-blue">Order</Button>
+                    <Button className="compare-btn">Compare</Button>
+                    <Button className="view-detail-btn">View Detail</Button>
                   </CarBtn>
-                </CarOneCon>
+                </CarTuningCon>
               </Link>
             </div>
           );

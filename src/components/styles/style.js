@@ -559,6 +559,12 @@ export const ButtonCon = styled.div`
     border: none;
     cursor: pointer;
   }
+  .yellow-btn:hover {
+    background-color: blue;
+  }
+  .blue-btn:hover {
+    background-color: blue;
+  }
 `;
 export const CompareCon = styled.div`
   margin-top: 50px;
@@ -612,7 +618,7 @@ export const ItemFirstCon = styled.div`
     justify-content: space-between;
     gap: 70px;
   }
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 750px) {
     display: flex;
     justify-content: center;
     gap: 70px;
@@ -964,6 +970,10 @@ export const CarBtn = styled.div`
     background: #fff;
     margin-top: 13px;
     cursor: pointer;
+  }
+  button:hover {
+    background-color: #006dab;
+    color: white;
   }
 
   button.view-detail-btn {

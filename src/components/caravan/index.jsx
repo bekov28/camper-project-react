@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   BackgroundImg,
   BrandCon,
@@ -41,10 +41,22 @@ import { campcarCaravan } from "../mock/mockdatacaravan";
 import { Link } from "react-router-dom";
 import star from "../../assets/star.svg";
 import { BackgroundCar, BrandConMainCaravan, CaravanCon } from "./style";
+import Hmenu from "./menu/Hmenu";
+import Vmenu from "./menu/Vmenu";
 
 const CaravanComponent = () => {
   const data = campcarCaravan.maindata;
   console.log(data);
+
+  const [active, setActive] = useState(true);
+
+  function caravanClick() {
+    setActive(true);
+  }
+  function vmenuClick() {
+    setActive(false);
+  }
+
   return (
     <div>
       <BackgroundCar>
@@ -196,11 +208,11 @@ const CaravanComponent = () => {
                   </SixtyCon>
                 </SortCon>
                 <TwoIconCon>
-                <button className="GridStyle">
+                  <button onClick={caravanClick} className="GridStyle">
                     {" "}
                     <img src={grid} alt="grid-icon" />
                   </button>
-                  <button className="RoundStyle">
+                  <button onClick={vmenuClick} className="RoundStyle">
                     <img src={round} alt="round-icon" />
                   </button>
                 </TwoIconCon>
@@ -219,49 +231,7 @@ const CaravanComponent = () => {
             </SixtyCon2>
           </NoShow>
           <div>
-            <CarWrapper>
-              {data.map((value, index) => {
-                return (
-                  <div key={index}>
-                    <Link
-                      to={`/caravan/${value.id}`}
-                      style={{ textDecoration: "none", color: "black" }}
-                    >
-                      <CaravanCon>
-                        <div>
-                          <img src={value.car.photo} />
-                        </div>
-                        <div>
-                          <h3 className="carName">{value.car.name}</h3>
-                        </div>
-                        <BrandConMainCaravan>
-                          <p>
-                            <div>{value.car.company}</div>
-                          </p>
-                          <StarCon>
-                            <img src={star} alt="star-icon" />
-                            <p>
-                              {" "}
-                              <div>{value.car.rate}</div>
-                            </p>
-                          </StarCon>
-                        </BrandConMainCaravan>
-                        <h4>
-                          <div>{value.car.cost}</div>
-                        </h4>
-                        <CarBtn>
-                          <Button className="order-blue">Order</Button>
-                          <Button className="compare-btn">Compare</Button>
-                          <Button className="view-detail-btn">
-                            View Detail
-                          </Button>
-                        </CarBtn>
-                      </CaravanCon>
-                    </Link>
-                  </div>
-                );
-              })}
-            </CarWrapper>
+            {active ? <Hmenu/> : <Vmenu/>}
           </div>
         </MainItemCon>
       </MainBodyCon>
