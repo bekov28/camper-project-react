@@ -31,7 +31,7 @@ export const campcarUsedCarVmenu = {
       },
       //   //photo: `${camp}`,
       //   //photo1: `${insidecamp}`,
-      //   //photo2: `${insidecamp1}`,
+      //   //photo2: `${insidecamp1}`
       //   //photo3: `${insidecamp2}`,
       //   //photo4: `${easyaccess}`,
       //   //photo5: `${heating}`,

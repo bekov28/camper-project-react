@@ -7,7 +7,11 @@ import {
   ButtonCon,
   CarImageCon,
   CarImgLeft,
+  CompanyCon,
+  CompanyMainCon,
+  DetailedCon,
   RightDetail,
+  RightDetailCon,
 } from "./detailStyle";
 import { Button } from "../styles/style";
 
@@ -41,7 +45,26 @@ const MotorDetail = () => {
                 <img src={value.car.photo} />
               </CarImgLeft>
               <RightDetail>
-                
+                <RightDetailCon>
+                  <div>
+                    <h3 className="carNameStyle">{value.car.name}</h3>
+                    <h2 className="locationStyle">{value.car.location}</h2>
+                  </div>
+                  <h3 className="costNameStyle">{value.car.cost}</h3>
+                </RightDetailCon>
+               
+                <CompanyMainCon>
+                  <CompanyCon>
+                    <h3>Company</h3>
+                    <h3>People</h3>
+                    <h3>License type</h3>
+                  </CompanyCon>
+                  <DetailedCon>
+                    <h3>{value.car.company}</h3>
+                    <h3>{value.car.people}</h3>
+                    <h3>{value.car.license}</h3>
+                  </DetailedCon>
+                </CompanyMainCon>
               </RightDetail>
             </CarImageCon>
           </div>

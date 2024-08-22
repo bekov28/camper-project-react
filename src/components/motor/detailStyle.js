@@ -51,10 +51,10 @@ export const ButtonCon = styled.div`
     background: var(--blue, #006dab);
     border: none;
   }
-  .addToCart:hover {
+  /* .addToCart:hover {
     background-color: transparent;
     border: 1px solid #fff;
-  }
+  } */
 
   .compareBtn:hover {
     background: var(--blue, #006dab);
@@ -62,14 +62,24 @@ export const ButtonCon = styled.div`
   }
 `;
 export const CarImageCon = styled.div`
-  width: 626px;
   height: 381px;
   flex-shrink: 0;
+  padding: 30px 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const CarImgLeft = styled.div`
   flex: 1;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 626px;
+    height: 381px;
+    flex-shrink: 0;
+    justify-content: center;
+  }
 `;
 export const RightDetail = styled.div`
   flex: 1;
@@ -79,4 +89,63 @@ export const RightDetail = styled.div`
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+`;
+export const RightDetailCon = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(55, 55, 55, 0.3);
+  margin: 30px;
+
+  .carNameStyle {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .costNameStyle {
+    color: #006dab;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .locationStyle {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+  }
+`;
+export const CompanyMainCon = styled.div`
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+`;
+export const CompanyCon = styled.div`
+  flex: 1;
+  h3 {
+    color: var(--text, #373737);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 36px;
+  }
+`;
+
+export const DetailedCon = styled.div`
+  margin-left: 250px;
+  flex: 1;
+  h3 {
+    color: rgba(55, 55, 55, 0.8);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+  }
 `;

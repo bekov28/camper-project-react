@@ -1,7 +1,7 @@
-import img from "../../assets/car-1.png";
-import img3 from "../../assets/car-3.png";
-import img2 from "../../assets/car-2.png";
-import img4 from "../../assets/car-4.png";
+import img from "../../assets/car-1.svg";
+import img3 from "../../assets/car-3.svg";
+import img2 from "../../assets/car-2.svg";
+import img4 from "../../assets/car-4.svg";
 import img5 from "../../assets/car-5.svg";
 
 export const campcarVmenu = {
