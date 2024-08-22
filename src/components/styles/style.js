@@ -19,6 +19,7 @@ export const LogoWrapper = styled.div`
   .menu-icon {
     display: none;
   }
+
   @media only screen and (max-width: 1350px) {
     .menu-icon {
       display: flex;
@@ -28,6 +29,9 @@ export const LogoWrapper = styled.div`
     .menu-icon {
       display: none;
     }
+  }
+  :hover {
+    width: 150px;
   }
 `;
 
@@ -55,6 +59,13 @@ export const MenuWrapper = styled.div`
     line-height: normal;
     font-family: Montserrat;
   }
+  .menuWrappermini:hover {
+    background-color: rgba(0, 109, 171, 0.05);
+    color: white;
+    border-radius: 20px;
+    height: 25px;
+  }
+
   @media only screen and (max-width: 1350px) {
     .menuWrappermini {
       display: none;
@@ -72,9 +83,16 @@ export const IconWrapper = styled.div`
   .menu-icon {
     display: none;
   }
+  .CartImg:hover {
+    width: 31px;
+  }
+  .ManImg:hover {
+    width: 31px;
+  }
 `;
 
 export const Cart = styled.img``;
+
 export const Man = styled.img``;
 export const Menu = styled.img``;
 
@@ -1074,11 +1092,11 @@ export const CamperConTwo = styled.div`
     line-height: normal;
     display: none;
   }
+
   @media only screen and (max-width: 1350px) {
     p {
       display: none;
     }
-
     .logo-icon {
       display: flex;
     }

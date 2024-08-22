@@ -51,7 +51,7 @@ import Vmenu from "./menu/Vmenu";
 
 const MotorComponent = () => {
   const data = campcar.maindata;
-  console.log(data);
+  // console.log(data);
 
   const [active, setActive] = useState(true);
 

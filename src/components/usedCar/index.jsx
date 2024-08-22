@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   BackgroundImg,
   BrandCon,
@@ -40,11 +40,26 @@ import grid from "../../assets/grid.svg";
 import round from "../../assets/round.svg";
 import { Link } from "react-router-dom";
 import star from "../../assets/star.svg";
-import { BackgroundUsed, BrandConMainUsed, StarConUsed, UsedOneCon } from "./style";
+import {
+  BackgroundUsed,
+  BrandConMainUsed,
+  StarConUsed,
+  UsedOneCon,
+} from "./style";
+import Vmenu from "./menu/Vmenu";
+import Hmenu from "./menu/Hmenu";
 
 const UsedCarComponent = () => {
   const data = campcarUsedCar.maindata;
   console.log(data);
+
+  const [action, setAction] = useState(true);
+  function handleClick() {
+    setAction(true);
+  }
+  function handleUsed() {
+    setAction(false);
+  }
 
   return (
     <div>
@@ -197,11 +212,11 @@ const UsedCarComponent = () => {
                   </SixtyCon>
                 </SortCon>
                 <TwoIconCon>
-                <button className="GridStyle">
+                  <button onClick={handleClick} className="GridStyle">
                     {" "}
                     <img src={grid} alt="grid-icon" />
                   </button>
-                  <button className="RoundStyle">
+                  <button onClick={handleUsed} className="RoundStyle">
                     <img src={round} alt="round-icon" />
                   </button>
                 </TwoIconCon>
@@ -219,51 +234,7 @@ const UsedCarComponent = () => {
               <img src={arrow} alt="" />
             </SixtyCon2>
           </NoShow>
-          <div>
-            <CarWrapper>
-              {data.map((value, index) => {
-                return (
-                  <div key={index}>
-                    <Link
-                      to={`/usedCar/${value.id}`}
-                      style={{ textDecoration: "none", color: "black" }}
-                    >
-                      <UsedOneCon>
-                        <div>
-                          <img src={value.car.photo} />
-                        </div>
-                        <div>
-                          <h3 className="carName">{value.car.name}</h3>
-                        </div>
-                        <BrandConMainUsed>
-                          <p>
-                            <div>{value.car.company}</div>
-                          </p>
-                          <StarConUsed>
-                            <img src={star} alt="star-icon" />
-                            <p>
-                              {" "}
-                              <div>{value.car.rate}</div>
-                            </p>
-                          </StarConUsed>
-                        </BrandConMainUsed>
-                        <h4>
-                          <div>{value.car.cost}</div>
-                        </h4>
-                        <CarBtn>
-                          <Button className="order-blue">Order</Button>
-                          <Button className="compare-btn">Compare</Button>
-                          <Button className="view-detail-btn">
-                            View Detail
-                          </Button>
-                        </CarBtn>
-                      </UsedOneCon>
-                    </Link>
-                  </div>
-                );
-              })}
-            </CarWrapper>
-          </div>
+          <div>{action ? <Hmenu /> : <Vmenu />}</div>
         </MainItemCon>
       </MainBodyCon>
     </div>
