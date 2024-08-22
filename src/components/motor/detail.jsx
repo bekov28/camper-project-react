@@ -5,13 +5,21 @@ import {
   BackgroundCon,
   BackgroundDiv,
   ButtonCon,
+  ButtonCon2,
   CarImageCon,
   CarImgLeft,
+  CarNameCon,
+  ComfortCon,
+  ComfortConLeft,
+  ComfortConRight,
   CompanyCon,
   CompanyMainCon,
   DetailedCon,
   RightDetail,
   RightDetailCon,
+  TidyingCon,
+  TidyingConLeft,
+  TidyingConRight,
 } from "./detailStyle";
 import { Button } from "../styles/style";
 
@@ -40,19 +48,20 @@ const MotorDetail = () => {
                 </button>
               </ButtonCon>
             </BackgroundCon>
+
             <CarImageCon>
               <CarImgLeft>
                 <img src={value.car.photo} />
               </CarImgLeft>
               <RightDetail>
                 <RightDetailCon>
-                  <div>
+                  <CarNameCon>
                     <h3 className="carNameStyle">{value.car.name}</h3>
                     <h2 className="locationStyle">{value.car.location}</h2>
-                  </div>
+                  </CarNameCon>
                   <h3 className="costNameStyle">{value.car.cost}</h3>
                 </RightDetailCon>
-               
+
                 <CompanyMainCon>
                   <CompanyCon>
                     <h3>Company</h3>
@@ -67,6 +76,64 @@ const MotorDetail = () => {
                 </CompanyMainCon>
               </RightDetail>
             </CarImageCon>
+
+            <ComfortCon>
+              <ComfortConLeft>
+                <h2>Comfort</h2>
+                <h4>{value.car.word}</h4>
+              </ComfortConLeft>
+              <ComfortConRight>
+                <img src={value.photo1} />
+              </ComfortConRight>
+            </ComfortCon>
+
+            <TidyingCon>
+              <TidyingConLeft>
+                <img src={value.photo2} />
+              </TidyingConLeft>
+              <TidyingConRight>
+                <h2>Tidying away is child’s play!</h2>
+                <h4>{value.car.word1}</h4>
+              </TidyingConRight>
+            </TidyingCon>
+
+            <ComfortCon>
+              <ComfortConLeft>
+                <h2>Ventilated , Lit up</h2>
+                <h4>{value.car.word2}</h4>
+              </ComfortConLeft>
+              <ComfortConRight>
+                <img src={value.photo3} />
+              </ComfortConRight>
+            </ComfortCon>
+
+            <TidyingCon>
+              <TidyingConLeft>
+                <img src={value.photo4} />
+              </TidyingConLeft>
+              <TidyingConRight>
+                <h2>Easy access</h2>
+                <h4>{value.car.word3}</h4>
+              </TidyingConRight>
+            </TidyingCon>
+
+            <ComfortCon>
+              <ComfortConLeft>
+                <h2>Heating when driving</h2>
+                <h4>{value.car.word4}</h4>
+                <ButtonCon>
+                  <button className="addToCart">
+                    <p>ADD TO CART</p>
+                  </button>
+                  <button className="compareBtn2">
+                    <p>COMPARE</p>
+                  </button>
+                </ButtonCon>
+              </ComfortConLeft>
+              <ComfortConRight>
+                <img src={value.photo5} />
+              </ComfortConRight>
+            </ComfortCon>
           </div>
         );
       })}

@@ -3,6 +3,11 @@ import img3 from "../../assets/car-3.svg";
 import img2 from "../../assets/car-2.svg";
 import img4 from "../../assets/car-4.svg";
 import img5 from "../../assets/car-5.svg";
+import insidecamp from "../motor/menu/assets/photo1.svg";
+import insidecamp1 from "../motor/menu/assets/photo2.svg";
+import insidecamp2 from "../motor/menu/assets/photo3.svg";
+import easyaccess from "../motor/menu/assets/photo4.svg";
+import heating from "../motor/menu/assets/photo5.svg";
 
 export const campcar = {
   maindata: [
@@ -29,12 +34,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-        // photo: `${camp}`,
-        // photo1: `${insidecamp}`,
-        // photo2: `${insidecamp1}`,
-        // photo3: `${insidecamp2}`,
-        // photo4: `${easyaccess}`,
-        // photo5: `${heating}`,
+        photo1: `${insidecamp}`,
+        photo2: `${insidecamp1}`,
+        photo3: `${insidecamp2}`,
+        photo4: `${easyaccess}`,
+        photo5: `${heating}`,
     },
     {
       id: 2,
