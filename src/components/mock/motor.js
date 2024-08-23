@@ -8,6 +8,26 @@ import insidecamp1 from "../motor/menu/assets/photo2.svg";
 import insidecamp2 from "../motor/menu/assets/photo3.svg";
 import easyaccess from "../motor/menu/assets/photo4.svg";
 import heating from "../motor/menu/assets/photo5.svg";
+import inside1 from "../motor/menu/assets2/car2photo1.jpg";
+import inside2 from "../motor/menu/assets2/car2photo2.jpg";
+import inside3 from "../motor/menu/assets3/photo3.jpg";
+import inside4 from "../motor/menu/assets2/car2photo4.jpg";
+import inside5 from "../motor/menu/assets2/car2photo5.jpg";
+import photo1 from "../motor/menu/assets3/photo1.jpg";
+import photo2 from "../motor/menu/assets3/photo2.jpg";
+import photo3 from "../motor/menu/assets3/photo3.jpg";
+import photo4 from "../motor/menu/assets3/photo4.jpg";
+import photo5 from "../motor/menu/assets3/photo5.jpg";
+import image1 from "../motor/menu/assets4/photo1.jpg";
+import image2 from "../motor/menu/assets4/photo2.jpg";
+import image3 from "../motor/menu/assets4/photo3.jpg";
+import image4 from "../motor/menu/assets4/photo4.jpg";
+import image5 from "../motor/menu/assets4/photo5.jpg";
+import pic1 from "../motor/menu/assets5/pic1.jpg";
+import pic2 from "../motor/menu/assets5/pic2.jpg";
+import pic3 from "../motor/menu/assets5/pic3.jpg";
+import pic4 from "../motor/menu/assets5/pic4.jpg";
+import pic5 from "../motor/menu/assets5/pic5.jpg";
 
 export const campcar = {
   maindata: [
@@ -34,11 +54,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-        photo1: `${insidecamp}`,
-        photo2: `${insidecamp1}`,
-        photo3: `${insidecamp2}`,
-        photo4: `${easyaccess}`,
-        photo5: `${heating}`,
+      photo1: `${insidecamp}`,
+      photo2: `${insidecamp1}`,
+      photo3: `${insidecamp2}`,
+      photo4: `${easyaccess}`,
+      photo5: `${heating}`,
     },
     {
       id: 2,
@@ -63,12 +83,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //   //photo: `${camp}`,
-      //   //photo1: `${insidecamp}`,
-      //   //photo2: `${insidecamp1}`,
-      //   //photo3: `${insidecamp2}`,
-      //   //photo4: `${easyaccess}`,
-      //   //photo5: `${heating}`,
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
     {
       id: 3,
@@ -93,12 +112,12 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+
+      photo1: `${photo1}`,
+      photo2: `${photo2}`,
+      photo3: `${photo3}`,
+      photo4: `${photo4}`,
+      photo5: `${photo5}`,
     },
     {
       id: 4,
@@ -123,12 +142,12 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+
+      photo1: `${image1}`,
+      photo2: `${image2}`,
+      photo3: `${image3}`,
+      photo4: `${image4}`,
+      photo5: `${image5}`,
     },
     {
       id: 5,
@@ -153,12 +172,12 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+
+      photo1: `${photo1}`,
+      photo2: `${photo2}`,
+      photo3: `${photo3}`,
+      photo4: `${photo4}`,
+      photo5: `${photo5}`,
     },
     {
       id: 6,
@@ -183,12 +202,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      // photo: `${car1}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${insidecamp}`,
+      photo2: `${insidecamp1}`,
+      photo3: `${insidecamp2}`,
+      photo4: `${easyaccess}`,
+      photo5: `${heating}`,
     },
     {
       id: 7,
@@ -213,12 +231,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${insidecamp}`,
+      photo2: `${insidecamp1}`,
+      photo3: `${insidecamp2}`,
+      photo4: `${easyaccess}`,
+      photo5: `${heating}`,
     },
     {
       id: 8,
@@ -243,12 +260,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${insidecamp}`,
+      photo2: `${insidecamp1}`,
+      photo3: `${insidecamp2}`,
+      photo4: `${easyaccess}`,
+      photo5: `${heating}`,
     },
     {
       id: 9,
@@ -273,12 +289,12 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+
+      photo1: `${pic1}`,
+      photo2: `${pic2}`,
+      photo3: `${pic3}`,
+      photo4: `${pic4}`,
+      photo5: `${pic5}`,
     },
     {
       id: 10,
@@ -303,12 +319,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${image1}`,
+      photo2: `${image2}`,
+      photo3: `${image3}`,
+      photo4: `${image4}`,
+      photo5: `${image5}`,
     },
     {
       id: 12,
@@ -333,12 +348,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${pic1}`,
+      photo2: `${pic2}`,
+      photo3: `${pic3}`,
+      photo4: `${pic4}`,
+      photo5: `${pic5}`,
     },
     {
       id: 16,
@@ -363,12 +377,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${photo1}`,
+      photo2: `${photo2}`,
+      photo3: `${photo3}`,
+      photo4: `${photo4}`,
+      photo5: `${photo5}`,
     },
     {
       id: 20,
@@ -393,12 +406,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
     {
       id: 21,
@@ -423,12 +435,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${insidecamp}`,
+      photo2: `${insidecamp1}`,
+      photo3: `${insidecamp2}`,
+      photo4: `${easyaccess}`,
+      photo5: `${heating}`,
     },
     {
       id: 22,
@@ -453,12 +464,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${insidecamp}`,
+      photo2: `${insidecamp1}`,
+      photo3: `${insidecamp2}`,
+      photo4: `${easyaccess}`,
+      photo5: `${heating}`,
     },
     {
       id: 23,
@@ -483,12 +493,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${photo1}`,
+      photo2: `${photo2}`,
+      photo3: `${photo3}`,
+      photo4: `${photo4}`,
+      photo5: `${photo5}`,
     },
     {
       id: 24,
@@ -513,12 +522,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${insidecamp}`,
+      photo2: `${insidecamp1}`,
+      photo3: `${insidecamp2}`,
+      photo4: `${easyaccess}`,
+      photo5: `${heating}`,
     },
     {
       id: 25,
@@ -543,12 +551,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${photo1}`,
+      photo2: `${photo2}`,
+      photo3: `${photo3}`,
+      photo4: `${photo4}`,
+      photo5: `${photo5}`,
     },
     {
       id: 31,
@@ -573,12 +580,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${insidecamp}`,
+      photo2: `${insidecamp1}`,
+      photo3: `${insidecamp2}`,
+      photo4: `${easyaccess}`,
+      photo5: `${heating}`,
     },
     {
       id: 32,
@@ -603,12 +609,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
     {
       id: 33,
@@ -633,12 +638,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${insidecamp}`,
+      photo2: `${insidecamp1}`,
+      photo3: `${insidecamp2}`,
+      photo4: `${easyaccess}`,
+      photo5: `${heating}`,
     },
     {
       id: 34,
@@ -663,12 +667,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${insidecamp}`,
+      photo2: `${insidecamp1}`,
+      photo3: `${insidecamp2}`,
+      photo4: `${easyaccess}`,
+      photo5: `${heating}`,
     },
     {
       id: 35,
@@ -693,12 +696,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${photo1}`,
+      photo2: `${photo2}`,
+      photo3: `${photo3}`,
+      photo4: `${photo4}`,
+      photo5: `${photo5}`,
     },
     {
       id: 36,
@@ -723,12 +725,11 @@ export const campcar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${insidecamp}`,
+      photo2: `${insidecamp1}`,
+      photo3: `${insidecamp2}`,
+      photo4: `${easyaccess}`,
+      photo5: `${heating}`,
     },
   ],
 };

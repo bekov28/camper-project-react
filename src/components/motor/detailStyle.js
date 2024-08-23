@@ -4,7 +4,7 @@ import background from "../../assets/motorbackgound.svg";
 export const BackgroundCon = styled.div`
   background-image: url(${background});
   width: 100%;
-  height: 704px;
+  height: 628px;
   flex-shrink: 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,10 +72,16 @@ export const ButtonCon = styled.div`
 export const CarImageCon = styled.div`
   height: 381px;
   flex-shrink: 0;
-  padding: 30px 50px;
-  display: flex;
+  padding: 30px 40px;
+  display: grid;
+  grid-template-areas: "a a";
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: 1450px) {
+    display: grid;
+    grid-template-areas: "a";
+  }
 `;
 
 export const CarImgLeft = styled.div`
@@ -162,10 +168,18 @@ export const DetailedCon = styled.div`
   }
 `;
 export const ComfortCon = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-areas: "a a";
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 100px;
+
+  @media only screen and (max-width: 1300px) {
+    display: grid;
+    grid-template-areas: "a";
+    margin-bottom: -100px;
+  }
 `;
+
 export const ComfortConLeft = styled.div`
   display: flex;
   flex-direction: column;
