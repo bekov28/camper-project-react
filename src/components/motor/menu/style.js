@@ -5,10 +5,11 @@ export const VmenuWrapper = styled.div`
   flex-direction: column;
   gap: 20px;
   margin-top: 20px;
+  border: 1px solid black;
 
   @media only screen and (max-width: 800px) {
     justify-content: center;
-    margin-left: 120px;
+    align-items: center;
   }
 `;
 
@@ -25,6 +26,7 @@ export const NameWrapper = styled.div`
   @media only screen and (max-width: 1100px) {
     width: 674px;
   }
+
   @media only screen and (max-width: 800px) {
     width: 354px;
     height: 295px;
@@ -177,5 +179,4 @@ export const LocationDiv = styled.div`
   @media only screen and (max-width: 800px) {
     display: flex;
   }
-
 `;

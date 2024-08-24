@@ -9,7 +9,7 @@ export const VmenuTuning = styled.div`
 
   @media only screen and (max-width: 800px) {
     justify-content: center;
-    margin-left: 120px;
+    align-items: center;
   }
 `;
 

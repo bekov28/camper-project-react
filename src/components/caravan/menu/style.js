@@ -6,10 +6,11 @@ export const VmenuCaravan = styled.div`
   gap: 20px;
   margin-top: 20px;
   display: flex;
+  justify-content: center;
 
   @media only screen and (max-width: 800px) {
     justify-content: center;
-    margin-left: 120px;
+    align-items: center;
   }
 `;
 
