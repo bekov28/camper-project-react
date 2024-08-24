@@ -12,7 +12,6 @@ import TuningDetail from "./components/tuning/detail";
 import UsedCarDetail from "./components/usedCar/detail";
 import CampingDetail from "./components/camping/detail";
 
-
 const RouterComponent = () => {
   return (
     <Routes>

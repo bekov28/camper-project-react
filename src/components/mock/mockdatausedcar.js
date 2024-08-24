@@ -3,6 +3,32 @@ import img3 from "../usedCar/assets/usedcar2.jpeg";
 import img2 from "../usedCar/assets/usedcar3.jpg";
 import img4 from "../usedCar/assets/usedcar4.jpg";
 import img5 from "../usedCar/assets/usedcar5.png";
+import inside1 from "../usedCar/menu/assets1/inside1.jpg";
+import inside2 from "../usedCar/menu/assets1/inside2.jpg";
+import inside3 from "../usedCar/menu/assets1/inside3.jpg";
+import inside4 from "../usedCar/menu/assets1/inside4.jpg";
+import inside5 from "../usedCar/menu/assets1/inside5.jpg";
+import pic1 from "../usedCar/menu/assets2/pic1.jpg";
+import pic2 from "../usedCar/menu/assets2/pic2.jpg";
+import pic3 from "../usedCar/menu/assets2/pic3.jpg";
+import pic4 from "../usedCar/menu/assets2/pic4.jpg";
+import pic5 from "../usedCar/menu/assets2/pic5.jpg";
+import gal1 from "../usedCar/menu/assets3/gal1.jpg";
+import gal2 from "../usedCar/menu/assets3/gal2.jpg";
+import gal3 from "../usedCar/menu/assets3/gal3.jpg";
+import gal4 from "../usedCar/menu/assets3/gal4.jpg";
+import gal5 from "../usedCar/menu/assets3/gal5.jpg";
+import picture1 from "../usedCar/menu/assets4/picture1.jpg";
+import picture2 from "../usedCar/menu/assets4/picture2.jpg";
+import picture3 from "../usedCar/menu/assets4/picture3.jpg";
+import picture4 from "../usedCar/menu/assets4/picture4.jpg";
+import picture5 from "../usedCar/menu/assets4/picture5.jpg";
+import photo1 from "../usedCar/menu/assets5/photo1.jpg";
+import photo2 from "../usedCar/menu/assets5/photo2.jpg";
+import photo3 from "../usedCar/menu/assets5/photo3.jpg";
+import photo4 from "../usedCar/menu/assets5/photo4.jpg";
+import photo5 from "../usedCar/menu/assets5/photo5.jpg";
+
 
 export const campcarUsedCar = {
   maindata: [
@@ -10,7 +36,7 @@ export const campcarUsedCar = {
       id: 1,
       car: {
         photo: `${img}`,
-        name: "Etrusco T7400SBC",
+        name: "Etrusco",
         cost: "40,200,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -29,18 +55,18 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //   //photo: `${camp}`,
-      //   //photo1: `${insidecamp}`,
-      //   //photo2: `${insidecamp1}`,
-      //   //photo3: `${insidecamp2}`,
-      //   //photo4: `${easyaccess}`,
-      //   //photo5: `${heating}`,
+
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
     {
       id: 2,
       car: {
         photo: `${img3}`,
-        name: "Knaus Live Wave 650",
+        name: "Knaus 650",
         cost: "43,700,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -59,18 +85,18 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //   //photo: `${camp}`,
-      //   //photo1: `${insidecamp}`,
-      //   //photo2: `${insidecamp1}`,
-      //   //photo3: `${insidecamp2}`,
-      //   //photo4: `${easyaccess}`,
-      //   //photo5: `${heating}`,
+
+      photo1: `${pic1}`,
+      photo2: `${pic2}`,
+      photo3: `${pic3}`,
+      photo4: `${pic4}`,
+      photo5: `${pic5}`,
     },
     {
       id: 3,
       car: {
         photo: `${img2}`,
-        name: "Weinsberg CaraBus 600",
+        name: "Weinsberg 600",
         cost: "43,700,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -89,12 +115,12 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+
+      photo1: `${gal1}`,
+      photo2: `${gal2}`,
+      photo3: `${gal3}`,
+      photo4: `${gal4}`,
+      photo5: `${gal5}`,
     },
     {
       id: 4,
@@ -119,18 +145,18 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+
+      photo1: `${picture1}`,
+      photo2: `${picture2}`,
+      photo3: `${picture3}`,
+      photo4: `${picture4}`,
+      photo5: `${picture5}`,
     },
     {
       id: 5,
       car: {
         photo: `${img2}`,
-        name: "Weinsberg CaraBus 600",
+        name: "Weinsberg 600",
         cost: "45,300,000",
         type: "포터",
         license: "2종 보통",
@@ -149,18 +175,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${gal1}`,
+      photo2: `${gal2}`,
+      photo3: `${gal3}`,
+      photo4: `${gal4}`,
+      photo5: `${gal5}`,
     },
     {
       id: 6,
       car: {
         photo: `${img}`,
-        name: "Etrusco T7400SBC",
+        name: "Etrusco",
         cost: "43,700,000",
         type: "포터",
         license: "2종 보통",
@@ -179,18 +204,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      // photo: `${car1}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
     {
       id: 7,
       car: {
         photo: `${img2}`,
-        name: "Weinsberg CaraBus 600",
+        name: "Weinsberg 600",
         cost: "42,600,000",
         type: "포터",
         license: "2종 보통",
@@ -209,18 +233,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${gal1}`,
+      photo2: `${gal2}`,
+      photo3: `${gal3}`,
+      photo4: `${gal4}`,
+      photo5: `${gal5}`,
     },
     {
       id: 8,
       car: {
         photo: `${img}`,
-        name: "Etrusco T7400SBC",
+        name: "Etrusco",
         cost: "32,900,000",
         type: "봉고",
         license: "2종 보통",
@@ -239,18 +262,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
     {
       id: 9,
       car: {
         photo: `${img5}`,
-        name: "Chausson Titanium",
+        name: "Chausson",
         cost: "35,200,000",
         type: "봉고",
         license: "2종 보통",
@@ -269,12 +291,12 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+     
+      photo1: `${photo1}`,
+      photo2: `${photo2}`,
+      photo3: `${photo3}`,
+      photo4: `${photo4}`,
+      photo5: `${photo5}`,
     },
     {
       id: 10,
@@ -299,18 +321,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${picture1}`,
+      photo2: `${picture2}`,
+      photo3: `${picture3}`,
+      photo4: `${picture4}`,
+      photo5: `${picture5}`,
     },
     {
       id: 12,
       car: {
         photo: `${img5}`,
-        name: "Chausson Titanium",
+        name: "Chausson",
         cost: "32,800,000",
         type: "이베코 뉴데일리",
         license: "1종 보통",
@@ -329,18 +350,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${photo1}`,
+      photo2: `${photo2}`,
+      photo3: `${photo3}`,
+      photo4: `${photo4}`,
+      photo5: `${photo5}`,
     },
     {
       id: 16,
       car: {
         photo: `${img2}`,
-        name: "Weinsberg CaraBus 600",
+        name: "Weinsberg 600",
         cost: "39,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -359,18 +379,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${gal1}`,
+      photo2: `${gal2}`,
+      photo3: `${gal3}`,
+      photo4: `${gal4}`,
+      photo5: `${gal5}`,
     },
     {
       id: 20,
       car: {
         photo: `${img3}`,
-        name: "Knaus Live Wave 650",
+        name: "Knaus 650",
         cost: "36,100,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -389,18 +408,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${pic1}`,
+      photo2: `${pic2}`,
+      photo3: `${pic3}`,
+      photo4: `${pic4}`,
+      photo5: `${pic5}`,
     },
     {
       id: 21,
       car: {
         photo: `${img}`,
-        name: "Etrusco T7400SBC",
+        name: "Etrusco",
         cost: "40,000,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -419,18 +437,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
     {
       id: 22,
       car: {
         photo: `${img}`,
-        name: "Etrusco T7400SBC",
+        name: "Etrusco",
         cost: "29,900,000",
         type: "봉고",
         license: "2종 보통",
@@ -449,18 +466,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
     {
       id: 23,
       car: {
         photo: `${img2}`,
-        name: "Weinsberg CaraBus 600",
+        name: "Weinsberg 600",
         cost: "29,900,000",
         type: "봉고",
         license: "2종 보통",
@@ -479,18 +495,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${gal1}`,
+      photo2: `${gal2}`,
+      photo3: `${gal3}`,
+      photo4: `${gal4}`,
+      photo5: `${gal5}`,
     },
     {
       id: 24,
       car: {
         photo: `${img}`,
-        name: "Etrusco T7400SBC",
+        name: "Etrusco",
         cost: "29,000,000",
         type: "포터",
         license: "2종 보통",
@@ -509,18 +524,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
     {
       id: 25,
       car: {
         photo: `${img2}`,
-        name: "Weinsberg CaraBus 600",
+        name: "Weinsberg 600",
         cost: "39,000,000",
         type: "포터",
         license: "2종 보통",
@@ -539,18 +553,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${gal1}`,
+      photo2: `${gal2}`,
+      photo3: `${gal3}`,
+      photo4: `${gal4}`,
+      photo5: `${gal5}`,
     },
     {
       id: 31,
       car: {
         photo: `${img}`,
-        name: "Etrusco T7400SBC",
+        name: "Etrusco",
         cost: "33,000,000",
         type: "포터",
         license: "2종 보통",
@@ -569,18 +582,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
     {
       id: 32,
       car: {
         photo: `${img3}`,
-        name: "Knaus Live Wave 650",
+        name: "Knaus 650",
         cost: "36,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -599,18 +611,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${pic1}`,
+      photo2: `${pic2}`,
+      photo3: `${pic3}`,
+      photo4: `${pic4}`,
+      photo5: `${pic5}`,
     },
     {
       id: 33,
       car: {
         photo: `${img}`,
-        name: "Etrusco T7400SBC",
+        name: "Etrusco",
         cost: "45,000,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -629,18 +640,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
     {
       id: 34,
       car: {
         photo: `${img}`,
-        name: "Etrusco T7400SBC",
+        name: "Etrusco",
         cost: "37,000,000",
         type: "르노마스터",
         license: "1종 보통",
@@ -659,18 +669,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
     {
       id: 35,
       car: {
         photo: `${img2}`,
-        name: "Weinsberg CaraBus 600",
+        name: "Weinsberg 600",
         cost: "34,000,000",
         type: "포터",
         license: " 2종 보통",
@@ -689,18 +698,17 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${gal1}`,
+      photo2: `${gal2}`,
+      photo3: `${gal3}`,
+      photo4: `${gal4}`,
+      photo5: `${gal5}`,
     },
     {
       id: 36,
       car: {
         photo: `${img}`,
-        name: "Etrusco T7400SBC",
+        name: "Etrusco",
         cost: "36,000,000",
         type: "봉고",
         license: "2종 보통",
@@ -719,12 +727,11 @@ export const campcarUsedCar = {
         word4:
           "Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.",
       },
-      //photo: `${camp}`,
-      //photo1: `${insidecamp}`,
-      //photo2: `${insidecamp1}`,
-      //photo3: `${insidecamp2}`,
-      //photo4: `${easyaccess}`,
-      //photo5: `${heating}`,
+      photo1: `${inside1}`,
+      photo2: `${inside2}`,
+      photo3: `${inside3}`,
+      photo4: `${inside4}`,
+      photo5: `${inside5}`,
     },
   ],
 };
