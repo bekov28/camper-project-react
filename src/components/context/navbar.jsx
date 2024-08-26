@@ -60,8 +60,10 @@ const Navbar = () => {
         </NavLink>
       </MenuWrapper>
       <IconWrapper>
-        <Cart src={cart} alt="cart-img" className="CartImg"/>
-        <Man src={man} alt="man-img" className="ManImg" />
+        <Cart src={cart} alt="cart-img" className="CartImg" />
+        <NavLink to={"/login"}>
+          <Man src={man} alt="man-img" className="ManImg" />
+        </NavLink>
         <Menu src={menu} alt="menu-icon" className="menu-icon" />
         <Enlang>
           <div className="en-lang">
