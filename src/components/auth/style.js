@@ -69,6 +69,14 @@ export const AlignCon = styled.div`
     border-radius: 5px;
     background: rgba(55, 55, 55, 0.15);
   }
+  p {
+    color: #373737;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 `;
 
 export const SingInBtn = styled.button`
@@ -131,4 +139,36 @@ export const CreateBtn = styled.button`
   font-weight: 700;
   line-height: normal;
   cursor: pointer;
+`;
+
+export const MainRegister = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+export const MainRegisterCon = styled.div`
+  width: 500px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  height: 520px;
+  margin: 100px 0px;
+  padding: 20px 30px;
+`;
+
+export const RegisterDiv = styled.div`
+  display: flex;
+  justify-content: space-between;
+  p {
+    color: var(--text, #373737);
+    font-family: "Open Sans";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  img {
+    cursor: pointer;
+  }
 `;
