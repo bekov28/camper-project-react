@@ -48,6 +48,7 @@ import { Link } from "react-router-dom";
 import { Button } from "./style";
 import Hmenu from "./menu/Hmenu";
 import Vmenu from "./menu/Vmenu";
+import MainCarousel from "../carousel";
 
 const MotorComponent = () => {
   const data = campcar.maindata;

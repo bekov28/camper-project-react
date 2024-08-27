@@ -15,6 +15,7 @@ import LoginComponent from "./components/auth/login";
 import RegisterComponent from "./components/auth/register";
 import Navbar from "./components/context/navbar";
 import Footer from "./components/context/footer";
+import MainCarousel from "./components/carousel";
 
 const RouterComponent = () => {
   const location = useLocation();
@@ -25,6 +26,7 @@ const RouterComponent = () => {
     <>
       {!navbarContainer && <Navbar />}
       <Routes>
+        <Route path="/" element={<MainCarousel />} />
         <Route path="/motor" element={<MotorComponent />} />
         <Route path="/motor/:id" element={<MotorDetail />} />
         <Route path="/caravan" element={<CaravanComponent />} />

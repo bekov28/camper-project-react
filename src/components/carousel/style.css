@@ -1,0 +1,33 @@
+.ImgCon {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.MiniCarouselMain {
+}
+
+.MiniCarousel {
+  margin-top: 30px;
+}
+.Recommend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}
+.Recommend h4 {
+  color: var(--text, #373737);
+  font-family: Gilroy;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Recommend p {
+  width: 170px;
+  height: 2px;
+  background: #ff7a00;
+  margin-top: 5px;
+}

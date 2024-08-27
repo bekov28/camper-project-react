@@ -24,10 +24,12 @@ const Navbar = () => {
     // Navbar Section
 
     <Container>
-      <LogoWrapper>
-        <img src={menu} alt="menu-icon" className="menu-icon" />
-        <Logo src={logo} />
-      </LogoWrapper>
+      <NavLink to={"/"}>
+        <LogoWrapper>
+          <img src={menu} alt="menu-icon" className="menu-icon" />
+          <Logo src={logo} />
+        </LogoWrapper>
+      </NavLink>
       <MenuWrapper>
         <NavLink to={"/motor"}>
           <div className="menuWrappermini">

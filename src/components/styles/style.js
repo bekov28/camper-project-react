@@ -31,9 +31,6 @@ export const LogoWrapper = styled.div`
       display: none;
     }
   }
-  :hover {
-    width: 150px;
-  }
 `;
 
 export const Logo = styled.img``;
@@ -1092,6 +1089,9 @@ export const CamperConTwo = styled.div`
     font-weight: 700;
     line-height: normal;
     display: none;
+  }
+  p {
+    color: white;
   }
 
   @media only screen and (max-width: 1350px) {

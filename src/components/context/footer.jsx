@@ -13,13 +13,18 @@ import {
 import youtube from "../../assets/youtube.svg";
 import instagram from "../../assets/insta.svg";
 import naver from "../../assets/naver.svg";
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <MainFooterCon>
       <CamperConTwo>
-        <p>Camper</p>
-        <div className="logo-icon">Logo</div>
+        <Link to={"/"}>
+          <p>Camper</p>
+        </Link>
+        <Link to={"/"}>
+          <div className="logo-icon">Logo</div>
+        </Link>
       </CamperConTwo>
       <ServicesCon>
         <h3 className="h3-footer">Services</h3>
