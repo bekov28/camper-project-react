@@ -7,6 +7,7 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   background-color: white;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
 `;
 export const LogoWrapper = styled.div`
   flex: 1;
