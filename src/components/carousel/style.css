@@ -1,20 +1,27 @@
 .ImgCon {
-  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
 }
 
 .MiniCarouselMain {
+  width: 100%;
 }
 
 .MiniCarousel {
   margin-top: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
+
 .Recommend {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 60px;
   align-items: center;
 }
 .Recommend h4 {
@@ -30,4 +37,93 @@
   height: 2px;
   background: #ff7a00;
   margin-top: 5px;
+}
+.KnausCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-top: 10px;
+
+  p {
+    color: var(--text, #373737);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  img {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  /* img:hover {
+    width: 88%;
+  } */
+}
+.ChooseCon {
+  gap: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h4 {
+    color: var(--text, #373737);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+  }
+}
+.ImgSize {
+  width: 290px;
+  height: 167px;
+}
+
+/* Blog Section */
+
+.MainBlog {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.BlogLeft {
+  h3 {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  h4 {
+    color: var(--sariq, #ff7a00);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+  }
+  h5 {
+    width: 380px;
+    height: 107px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+  }
+}
+.BlogRight {
+  display: grid;
+  grid-template-areas: "a a a";
 }
