@@ -40,6 +40,7 @@ export const MenuWrapper = styled.div`
   display: flex;
   flex: 3;
   justify-content: space-evenly;
+  align-items: center;
   cursor: pointer;
 
   .menuWrappermini {
@@ -56,12 +57,7 @@ export const MenuWrapper = styled.div`
     font-weight: 600;
     line-height: normal;
     font-family: Montserrat;
-  }
-  .menuWrappermini:hover {
-    background-color: rgba(0, 109, 171, 0.05);
-    color: white;
-    border-radius: 20px;
-    height: 25px;
+    margin-bottom: 0;
   }
 
   @media only screen and (max-width: 1350px) {
@@ -99,6 +95,9 @@ export const Enlang = styled.div`
   align-items: center;
   gap: 5px;
 
+  p {
+    margin-bottom: 0;
+  }
   .en-lang {
     display: flex;
     align-items: center;
@@ -186,6 +185,7 @@ export const SideBarCon = styled.div`
 
 export const CostOfCar = styled.div`
   padding-top: 15px;
+ 
   .h3-style {
     color: var(--text, #373737);
     font-size: 18px;
@@ -201,6 +201,7 @@ export const CostOfCar = styled.div`
     padding-bottom: 20px;
     border: none;
     border-bottom: 1px solid rgba(55, 55, 55, 0.3);
+    margin-bottom: 0;
   }
   h4 {
     color: var(--text, #373737);

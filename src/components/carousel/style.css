@@ -1,20 +1,15 @@
-.ImgCon {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-}
-
 .MiniCarouselMain {
-  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .MiniCarousel {
   margin-top: 30px;
-  flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 
 .Recommend {
@@ -43,7 +38,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  /* width: 60%; */
   margin-top: 10px;
 
   p {
@@ -58,11 +53,13 @@
   img {
     margin-top: 10px;
     cursor: pointer;
+    /* width: 100%; */
   }
   /* img:hover {
     width: 88%;
   } */
 }
+
 .ChooseCon {
   gap: 10px;
   margin-top: 10px;
@@ -78,10 +75,17 @@
     font-weight: 550;
     line-height: normal;
   }
+  img {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    margin-top: 0;
+  }
 }
 .ImgSize {
   width: 290px;
   height: 167px;
+  width: 100%;
 }
 
 /* Blog Section */
@@ -126,4 +130,43 @@
 .BlogRight {
   display: grid;
   grid-template-areas: "a a a";
+}
+.VideoCon {
+  margin-top: 30px;
+  padding: 0 15%;
+  display: grid;
+  grid-template-areas: "a a a a";
+  gap: 15px;
+  justify-content: center;
+
+  iframe {
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .VideoCon {
+    grid-template-areas: "a a a";
+  }
+  .BlogRight {
+    grid-template-areas: "a a";
+  }
+
+}
+@media only screen and (max-width: 940px) {
+  .VideoCon {
+    grid-template-areas: "a a";
+  }
+
+  .BlogLeft {
+    display: none;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .VideoCon {
+    grid-template-areas: "a";
+  }
+  .BlogRight {
+    grid-template-areas: "a";
+  }
 }
