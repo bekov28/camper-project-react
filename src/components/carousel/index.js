@@ -16,6 +16,7 @@ import "@coreui/coreui/dist/css/coreui.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
 import arrow from "./assets/arrow.svg";
+import ModalComponent from "./modal";
 
 export default function MainCarousel() {
   // var settings = {
@@ -225,6 +226,7 @@ export default function MainCarousel() {
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
+        {/* <ModalComponent /> */}
         <iframe
           width="292"
           height="292"

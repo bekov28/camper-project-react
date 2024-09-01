@@ -49,7 +49,7 @@ const MotorDetail = () => {
                 </button>
               </ButtonCon>
             </BackgroundCon>
-         
+
             <CarImageCon>
               <CarImgLeft>
                 <img src={value.car.photo} />
@@ -94,7 +94,7 @@ const MotorDetail = () => {
               </TidyingConLeft>
               <TidyingConRight>
                 <h2>Tidying away is child’s play!</h2>
-                <h4 >{value.car.word1}</h4>
+                <h4>{value.car.word1}</h4>
               </TidyingConRight>
             </TidyingCon>
 
@@ -123,9 +123,11 @@ const MotorDetail = () => {
                 <h2>Heating when driving</h2>
                 <h4>{value.car.word4}</h4>
                 <ButtonCon>
-                  <button className="addToCart">
-                    <p>ADD TO CART</p>
-                  </button>
+                  <Link to={`/motor/:id/${value.id}`}>
+                    <button className="addToCart">
+                      <p>ADD TO CART</p>
+                    </button>
+                  </Link>
                   <button className="compareBtn2">
                     <p>COMPARE</p>
                   </button>
@@ -135,8 +137,6 @@ const MotorDetail = () => {
                 <img src={value.photo5} />
               </ComfortConRight>
             </ComfortCon>
-          
-           
           </div>
         );
       })}

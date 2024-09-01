@@ -16,6 +16,7 @@ import RegisterComponent from "./components/auth/register";
 import Navbar from "./components/context/navbar";
 import Footer from "./components/context/footer";
 import MainCarousel from "./components/carousel";
+import DetailCart from "./components/motor/detailCart";
 
 const RouterComponent = () => {
   const location = useLocation();
@@ -29,8 +30,9 @@ const RouterComponent = () => {
         <Route path="/" element={<MainCarousel />} />
         <Route path="/motor" element={<MotorComponent />} />
         <Route path="/motor/:id" element={<MotorDetail />} />
+        <Route path="/motor/:id/:id" element={<DetailCart />} />
         <Route path="/caravan" element={<CaravanComponent />} />
-        <Route path="/caravan/:id" element={<CaravanDetail />} />
+        <Route path="/caravan/:id/" element={<CaravanDetail />} />
         <Route path="/tuning" element={<TuningComponent />} />
         <Route path="tuning/:id" element={<TuningDetail />} />
         <Route path="/usedCar" element={<UsedCarComponent />} />
