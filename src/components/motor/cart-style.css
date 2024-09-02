@@ -22,15 +22,15 @@
 `;
  */
 
-.MainCon {
-  height: 1850px;
-}
+/* .MainCon {
+  height: 100vw;
+} */
 
 .MainContainer {
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  height: 500px;
+  /* height: 500px; */
 }
 
 .CartCon {
@@ -59,10 +59,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 811px;
+  width: 611px;
   /* padding-left: 10%; */
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  height: 500px;
 }
 
 .SliderCon {
@@ -107,7 +108,7 @@
 .SidebarCon {
   width: 350px;
   margin-left: 50px;
-  height: 1500px;
+  /* height: 100%; */
   overflow-y: scroll;
   scrollbar-width: none;
 }
@@ -119,6 +120,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-top: 10px;
   }
   h2 {
     color: var(--blue, #006dab);
@@ -127,7 +129,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 15px;
+    margin-top: 10px;
   }
   h4 {
     color: #373737;
@@ -201,6 +203,9 @@
     font-weight: 400;
     line-height: normal;
   }
+  input:hover {
+    background: rgb(236, 243, 232);
+  }
 }
 
 .BottomBtn {
@@ -218,4 +223,58 @@
   line-height: normal;
   margin-top: 50px;
   border: none;
+}
+.BottomBtn:hover,
+.BtnCon:hover {
+  background: var(--blue, #0e90db);
+}
+
+/* Responsive Style Section */
+
+@media only screen and (max-width: 1050px) {
+  .MainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SliderMain {
+    width: 100%;
+  }
+
+  .SidebarCon {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 10%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  .CarNameCon {
+    width: 100%;
+    padding-right: 10%;
+  }
+  .ResponsiveCon {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    h3,
+    h2 {
+      font-size: 25px;
+    }
+  }
+
+  .BtnCon,
+  .BottomBtn {
+    width: 100%;
+    padding-right: 10%;
+  }
+  .EnterAccountCon {
+    width: 100%;
+    padding-right: 10%;
+  }
+  .EnterAccountCon input {
+    width: 100%;
+    padding-right: 10%;
+  }
 }

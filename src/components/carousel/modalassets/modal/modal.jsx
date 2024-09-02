@@ -1,10 +1,12 @@
 import React from "react";
 import Popup from "reactjs-popup";
+import group5 from "../group1.svg";
+import "reactjs-popup/dist/index.css";
 
 const ModalComponent = () => {
   return (
     <div>
-      <Popup trigger={<img className="img" />} modal nested>
+      <Popup trigger={<img src={group5} className="img" />} modal nested>
         {(close) => (
           <div className="modal">
             <button className="close" onClick={close}>

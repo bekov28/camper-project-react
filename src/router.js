@@ -17,6 +17,9 @@ import Navbar from "./components/context/navbar";
 import Footer from "./components/context/footer";
 import MainCarousel from "./components/carousel";
 import DetailCart from "./components/motor/detailCart";
+import DetailCartCaravan from "./components/caravan/detailCart";
+import DetailCartTuning from "./components/caravan/detailCart";
+import DetailCartUsedCar from "./components/usedCar/detailCart";
 
 const RouterComponent = () => {
   const location = useLocation();
@@ -33,10 +36,13 @@ const RouterComponent = () => {
         <Route path="/motor/:id/:id" element={<DetailCart />} />
         <Route path="/caravan" element={<CaravanComponent />} />
         <Route path="/caravan/:id/" element={<CaravanDetail />} />
+        <Route path="/caravan/:id/:id" element={<DetailCartCaravan />} />
         <Route path="/tuning" element={<TuningComponent />} />
-        <Route path="tuning/:id" element={<TuningDetail />} />
+        <Route path="/tuning/:id" element={<TuningDetail />} />
+        <Route path="/tuning/:id/:id" element={<DetailCartTuning />} />
         <Route path="/usedCar" element={<UsedCarComponent />} />
         <Route path="/usedCar/:id" element={<UsedCarDetail />} />
+        <Route path="/usedCar/:id/:id" element={<DetailCartUsedCar />} />
         <Route path="/camping" element={<CampingPlaceComponent />} />
         <Route path="/camping/:id" element={<CampingDetail />} />
         <Route path="/login" element={<LoginComponent />} />

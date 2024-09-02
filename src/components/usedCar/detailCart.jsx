@@ -1,14 +1,14 @@
 import React from "react";
-import { campcar } from "../mock/motor";
 import { useParams } from "react-router-dom";
 import "@coreui/coreui/dist/css/coreui.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Slider from "react-slick";
-import "./cart-style.css";
+import "../motor/cart-style.css";
+import { campcarUsedCar } from "../mock/mockdatausedcar";
 
-const DetailCart = () => {
+const DetailCartUsedCar = () => {
   const { id } = useParams();
-  const data = campcar.maindata;
+  const data = campcarUsedCar.maindata;
   const filteredData = data.filter((value) => value.id === parseInt(id));
   console.log(filteredData);
 
@@ -97,4 +97,4 @@ const DetailCart = () => {
   );
 };
 
-export default DetailCart;
+export default DetailCartUsedCar;

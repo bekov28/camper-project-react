@@ -1,7 +1,24 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { campcarCaravan } from "../mock/mockdatacaravan";
-import { BackgroundCon, ButtonCon, CarImageCon, CarImgLeft, CarNameCon, ComfortCon, ComfortConLeft, ComfortConRight, CompanyCon, CompanyMainCon, DetailedCon, RightDetail, RightDetailCon, TidyingCon, TidyingConLeft, TidyingConRight } from "../motor/detailStyle";
+import {
+  BackgroundCon,
+  ButtonCon,
+  CarImageCon,
+  CarImgLeft,
+  CarNameCon,
+  ComfortCon,
+  ComfortConLeft,
+  ComfortConRight,
+  CompanyCon,
+  CompanyMainCon,
+  DetailedCon,
+  RightDetail,
+  RightDetailCon,
+  TidyingCon,
+  TidyingConLeft,
+  TidyingConRight,
+} from "../motor/detailStyle";
 
 const CaravanDetail = () => {
   const { id } = useParams();
@@ -100,9 +117,11 @@ const CaravanDetail = () => {
                 <h2>Heating when driving</h2>
                 <h4>{value.car.word4}</h4>
                 <ButtonCon>
-                  <button className="addToCart">
-                    <p>ADD TO CART</p>
-                  </button>
+                  <Link to={`/caravan/:id/${value.id}`}>
+                    <button className="addToCart">
+                      <p>ADD TO CART</p>
+                    </button>
+                  </Link>
                   <button className="compareBtn2">
                     <p>COMPARE</p>
                   </button>

@@ -16,7 +16,7 @@ import "@coreui/coreui/dist/css/coreui.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
 import arrow from "./assets/arrow.svg";
-import ModalComponent from "./modal";
+
 import group1 from "./modalassets/group1.svg";
 import group2 from "./modalassets/group2.svg";
 import group3 from "./modalassets/group3.svg";
@@ -26,6 +26,14 @@ import group6 from "./modalassets/group6.svg";
 import group7 from "./modalassets/group7.svg";
 import group8 from "./modalassets/group8.svg";
 import { Link } from "react-router-dom";
+import ModalComponent from "./modalassets/modal/modal";
+import ModalComponent2 from "./modalassets/modal/modal2";
+import ModalComponent3 from "./modalassets/modal/modal3";
+import ModalComponent4 from "./modalassets/modal/modal4";
+import ModalComponent5 from "./modalassets/modal/modal5";
+import ModalComponent6 from "./modalassets/modal/modal6";
+import ModalComponent7 from "./modalassets/modal/modal7";
+import ModalComponent8 from "./modalassets/modal/modal8";
 
 export default function MainCarousel() {
   // var settings = {
@@ -225,98 +233,15 @@ export default function MainCarousel() {
         <p></p>
       </div>
       <div className="VideoCon">
-        <img src={group1} alt="carImage1" onClick={ModalComponent} />
-        <img src={group2} alt="carImage2" onClick={ModalComponent} />
-        <img src={group3} alt="carImage3" onClick={ModalComponent} />
-        <img src={group4} alt="carImage4" onClick={ModalComponent} />
-        <img src={group5} alt="carImage5" onClick={ModalComponent} />
-        <img src={group6} alt="carImage6" onClick={ModalComponent} />
-        <img src={group7} alt="carImage7" onClick={ModalComponent} />
-        <img src={group8} alt="carImage8" onClick={ModalComponent} />
+        <ModalComponent />
+        <ModalComponent2 />
+        <ModalComponent3 />
+        <ModalComponent4 />
+        <ModalComponent5 />
+        <ModalComponent6 />
+        <ModalComponent7 />
+        <ModalComponent8 />
       </div>
-
-      
-      {/* <iframe
-          width="292"
-          height="292"
-          src="https://www.youtube.com/embed/0ZgizY-9jOc?si=SYdfhMG414O4w7HG"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe> */}
-      {/* <ModalComponent /> */}
-      {/* <iframe
-          width="292"
-          height="292"
-          src="https://www.youtube.com/embed/BtSKtWjPPho?si=nUsd_P6F9K0vzk5P"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe
-          width="292"
-          height="292"
-          src="https://www.youtube.com/embed/gYn6_ls662Q?si=lYL2NXaF3zb5ib68"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe
-          width="292"
-          height="292"
-          src="https://www.youtube.com/embed/1bzTYL_aiM0?si=W2AovfyR3H0RIurZ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe
-          width="292"
-          height="292"
-          src="https://www.youtube.com/embed/gSjoX1c-ZWY?si=JjlB6HhxkkYhc6iy"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe
-          width="292"
-          height="292"
-          src="https://www.youtube.com/embed/2NlgWDrhFgk?si=w5SUbsH9dNFeINpS"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe
-          width="292"
-          height="292"
-          src="https://www.youtube.com/embed/7mEcEtu0Y_0?si=DWfccEhcFjkvj9b9"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe
-          width="292"
-          height="292"
-          src="https://www.youtube.com/embed/AFErUVyYeYc?si=J2vNYsjATuf0sMOD"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe> */}
 
       <div className="Recommend">
         <h4>Blogs</h4>
