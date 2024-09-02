@@ -4,11 +4,7 @@ import Popup from "reactjs-popup";
 const ModalComponent = () => {
   return (
     <div>
-      <Popup
-        trigger={<button className="button"> Open Modal </button>}
-        modal
-        nested
-      >
+      <Popup trigger={<img className="img" />} modal nested>
         {(close) => (
           <div className="modal">
             <button className="close" onClick={close}>

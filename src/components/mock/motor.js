@@ -36,7 +36,7 @@ export const campcar = {
       car: {
         photo: `${img}`,
         name: "르벤투스S+",
-        cost: "90,200,000",
+        cost: "90,200,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
@@ -65,7 +65,7 @@ export const campcar = {
       car: {
         photo: `${img3}`,
         name: "ST-7",
-        cost: "93,700,000",
+        cost: "93,700,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
@@ -94,7 +94,7 @@ export const campcar = {
       car: {
         photo: `${img2}`,
         name: "ACIER 790R",
-        cost: "93,700,000",
+        cost: "93,700,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "5인",
@@ -124,7 +124,7 @@ export const campcar = {
       car: {
         photo: `${img4}`,
         name: "르벤투스 차박S",
-        cost: "66,100,000",
+        cost: "66,100,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
@@ -154,7 +154,7 @@ export const campcar = {
       car: {
         photo: `${img2}`,
         name: "ACIER 790R",
-        cost: "85,300,000",
+        cost: "85,300,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "6인",
@@ -184,7 +184,7 @@ export const campcar = {
       car: {
         photo: `${img}`,
         name: "ACIER 790R",
-        cost: "93,700,000",
+        cost: "93,700,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "6인",
@@ -213,7 +213,7 @@ export const campcar = {
       car: {
         photo: `${img2}`,
         name: "르벤투스680",
-        cost: "62,600,000",
+        cost: "62,600,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "3인",
@@ -242,7 +242,7 @@ export const campcar = {
       car: {
         photo: `${img}`,
         name: "DS9eR+a",
-        cost: "77,900,000",
+        cost: "77,900,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "6인",
@@ -271,7 +271,7 @@ export const campcar = {
       car: {
         photo: `${img5}`,
         name: "DS9eU+a",
-        cost: "75,200,000",
+        cost: "75,200,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -301,7 +301,7 @@ export const campcar = {
       car: {
         photo: `${img4}`,
         name: "ACIER 790R",
-        cost: "122,800,000",
+        cost: "122,800,000 KRW",
         type: "이베코 뉴데일리",
         license: "1종 보통",
         people: "6인",
@@ -330,7 +330,7 @@ export const campcar = {
       car: {
         photo: `${img5}`,
         name: "르벤투스680",
-        cost: "142,800,000",
+        cost: "142,800,000 KRW",
         type: "이베코 뉴데일리",
         license: "1종 보통",
         people: "6인",
@@ -359,7 +359,7 @@ export const campcar = {
       car: {
         photo: `${img2}`,
         name: "ST-7",
-        cost: "89,000,000",
+        cost: "89,000,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -388,7 +388,7 @@ export const campcar = {
       car: {
         photo: `${img3}`,
         name: "DS9eU+a",
-        cost: "76,000,000",
+        cost: "76,000,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
@@ -417,7 +417,7 @@ export const campcar = {
       car: {
         photo: `${img}`,
         name: "DS9eU+a",
-        cost: "60,000,000",
+        cost: "60,000,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
@@ -446,7 +446,7 @@ export const campcar = {
       car: {
         photo: `${img}`,
         name: "르벤투스680",
-        cost: "68,900,000",
+        cost: "68,900,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -475,7 +475,7 @@ export const campcar = {
       car: {
         photo: `${img2}`,
         name: "DS9eU+a",
-        cost: "59,900,000",
+        cost: "59,900,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -504,7 +504,7 @@ export const campcar = {
       car: {
         photo: `${img}`,
         name: "르벤투스680",
-        cost: "49,000,000",
+        cost: "49,000,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "3인",
@@ -533,7 +533,7 @@ export const campcar = {
       car: {
         photo: `${img2}`,
         name: "르벤투스 차박S",
-        cost: "39,000,000",
+        cost: "39,000,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "3인",
@@ -562,7 +562,7 @@ export const campcar = {
       car: {
         photo: `${img}`,
         name: "HWC560DL",
-        cost: "61,000,000",
+        cost: "61,000,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: " 6인",
@@ -591,7 +591,7 @@ export const campcar = {
       car: {
         photo: `${img3}`,
         name: "HWC620DL",
-        cost: "76,000,000",
+        cost: "76,000,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -620,7 +620,7 @@ export const campcar = {
       car: {
         photo: `${img}`,
         name: "르벤투스 차박S",
-        cost: "75,000,000",
+        cost: "75,000,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
@@ -649,7 +649,7 @@ export const campcar = {
       car: {
         photo: `${img}`,
         name: "ST-7",
-        cost: "77,000,000",
+        cost: "77,000,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "5인",
@@ -678,7 +678,7 @@ export const campcar = {
       car: {
         photo: `${img2}`,
         name: "ST-7",
-        cost: "64,000,000",
+        cost: "64,000,000 KRW",
         type: "포터",
         license: " 2종 보통",
         people: "6인",
@@ -707,7 +707,7 @@ export const campcar = {
       car: {
         photo: `${img}`,
         name: "르벤투스 차박S",
-        cost: "64,000,000",
+        cost: "64,000,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",

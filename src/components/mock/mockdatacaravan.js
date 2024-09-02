@@ -36,7 +36,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img}`,
         name: "Camper Sardegna",
-        cost: "73,200,000",
+        cost: "73,200,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
@@ -66,7 +66,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img3}`,
         name: "2022 Joa Camp",
-        cost: "73,700,000",
+        cost: "73,700,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
@@ -96,7 +96,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img2}`,
         name: "T67/24",
-        cost: "91,700,000",
+        cost: "91,700,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "5인",
@@ -125,7 +125,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img4}`,
         name: "르벤투스 차박S",
-        cost: "56,500,000",
+        cost: "56,500,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
@@ -155,7 +155,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img2}`,
         name: "T67/24",
-        cost: "85,100,000",
+        cost: "85,100,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "6인",
@@ -184,7 +184,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img}`,
         name: "Camper Sardegna",
-        cost: "72,700,000",
+        cost: "72,700,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "6인",
@@ -213,7 +213,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img2}`,
         name: "T67/24",
-        cost: "72,700,000",
+        cost: "72,700,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "3인",
@@ -242,7 +242,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img}`,
         name: "Camper Sardegna",
-        cost: "71,900,000",
+        cost: "71,900,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "6인",
@@ -271,7 +271,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img5}`,
         name: "CamperVans",
-        cost: "70,500,000",
+        cost: "70,500,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -301,7 +301,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img4}`,
         name: "ACIER 790R",
-        cost: "75,800,000",
+        cost: "75,800,000 KRW",
         type: "이베코 뉴데일리",
         license: "1종 보통",
         people: "6인",
@@ -330,7 +330,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img5}`,
         name: "CamperVans",
-        cost: "82,800,000",
+        cost: "82,800,000 KRW",
         type: "이베코 뉴데일리",
         license: "1종 보통",
         people: "6인",
@@ -359,7 +359,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img2}`,
         name: "ST-7",
-        cost: "79,000,000",
+        cost: "79,000,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -388,7 +388,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img3}`,
         name: "2022 Joa Camp",
-        cost: "72,500,000",
+        cost: "72,500,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
@@ -417,7 +417,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img}`,
         name: "Camper Sardegna",
-        cost: "61,000,000",
+        cost: "61,000,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
@@ -446,7 +446,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img}`,
         name: "Camper Sardegna",
-        cost: "60,900,000",
+        cost: "60,900,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -475,7 +475,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img2}`,
         name: "T67/24",
-        cost: "69,900,000",
+        cost: "69,900,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -504,7 +504,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img}`,
         name: "Camper Sardegna",
-        cost: "59,000,000",
+        cost: "59,000,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "3인",
@@ -533,7 +533,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img2}`,
         name: "T67/24",
-        cost: "59,000,000",
+        cost: "59,000,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "3인",
@@ -562,7 +562,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img}`,
         name: "Camper Sardegna",
-        cost: "61,700,000",
+        cost: "61,700,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: " 6인",
@@ -591,7 +591,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img3}`,
         name: "2022 Joa",
-        cost: "76,700,000",
+        cost: "76,700,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -620,7 +620,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img}`,
         name: "Camper Sardegna",
-        cost: "79,000,000",
+        cost: "79,000,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
@@ -649,7 +649,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img}`,
         name: "Camper Sardegna",
-        cost: "72,700,000",
+        cost: "72,700,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "5인",
@@ -678,7 +678,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img2}`,
         name: "ST-7",
-        cost: "66,000,000",
+        cost: "66,000,000 KRW",
         type: "포터",
         license: " 2종 보통",
         people: "6인",
@@ -707,7 +707,7 @@ export const campcarCaravan = {
       car: {
         photo: `${img}`,
         name: "Camper Sardegna",
-        cost: "64,000,000",
+        cost: "64,000,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",

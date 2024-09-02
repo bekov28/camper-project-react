@@ -17,6 +17,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
 import arrow from "./assets/arrow.svg";
 import ModalComponent from "./modal";
+import group1 from "./modalassets/group1.svg";
+import group2 from "./modalassets/group2.svg";
+import group3 from "./modalassets/group3.svg";
+import group4 from "./modalassets/group4.svg";
+import group5 from "./modalassets/group5.svg";
+import group6 from "./modalassets/group6.svg";
+import group7 from "./modalassets/group7.svg";
+import group8 from "./modalassets/group8.svg";
+import { Link } from "react-router-dom";
 
 export default function MainCarousel() {
   // var settings = {
@@ -65,10 +74,10 @@ export default function MainCarousel() {
     <div>
       <CCarousel controls indicators>
         <CCarouselItem className="ImgCon">
-          <CImage className="d-block w-100" src={photo1} alt="slide 1" />
+          <CImage src={photo1} alt="slide 1" style={{ width: "100%" }} />
         </CCarouselItem>
         <CCarouselItem>
-          <CImage className="d-block w-100" src={photo2} alt="slide 2" />
+          <CImage src={photo2} alt="slide 2" style={{ width: "100%" }} />
         </CCarouselItem>
       </CCarousel>
       <div className="Recommend">
@@ -216,7 +225,18 @@ export default function MainCarousel() {
         <p></p>
       </div>
       <div className="VideoCon">
-        <iframe
+        <img src={group1} alt="carImage1" onClick={ModalComponent} />
+        <img src={group2} alt="carImage2" onClick={ModalComponent} />
+        <img src={group3} alt="carImage3" onClick={ModalComponent} />
+        <img src={group4} alt="carImage4" onClick={ModalComponent} />
+        <img src={group5} alt="carImage5" onClick={ModalComponent} />
+        <img src={group6} alt="carImage6" onClick={ModalComponent} />
+        <img src={group7} alt="carImage7" onClick={ModalComponent} />
+        <img src={group8} alt="carImage8" onClick={ModalComponent} />
+      </div>
+
+      
+      {/* <iframe
           width="292"
           height="292"
           src="https://www.youtube.com/embed/0ZgizY-9jOc?si=SYdfhMG414O4w7HG"
@@ -225,9 +245,9 @@ export default function MainCarousel() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
-        ></iframe>
-        {/* <ModalComponent /> */}
-        <iframe
+        ></iframe> */}
+      {/* <ModalComponent /> */}
+      {/* <iframe
           width="292"
           height="292"
           src="https://www.youtube.com/embed/BtSKtWjPPho?si=nUsd_P6F9K0vzk5P"
@@ -296,8 +316,8 @@ export default function MainCarousel() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
-        ></iframe>
-      </div>
+        ></iframe> */}
+
       <div className="Recommend">
         <h4>Blogs</h4>
         <p></p>

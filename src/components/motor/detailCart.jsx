@@ -30,7 +30,7 @@ const DetailCart = () => {
             <div className="CartCon">
               Cart
               <p></p>
-            </div>
+            </div>{" "}
             <div className="MainContainer">
               <div className="SliderMain">
                 <Slider {...settings} className="SliderCon">
@@ -38,14 +38,55 @@ const DetailCart = () => {
                     <img src={value.car.photo} />
                   </div>
                   <div className="ImgContainer">
-                    <img src={value.photo1} />
+                    <img src={value.car.photo} />
                   </div>
                 </Slider>
                 <div className="PurchaseCon">
-                  <p>Purchase price: {value.car.cost}</p>
+                  <p>
+                    Purchase price: <strong>{value.car.cost}</strong>
+                  </p>
                 </div>
               </div>
-              <div className="SidebarCon"></div>
+              <div className="SidebarCon">
+                <div className="CarNameCon">
+                  <h3>{value.car.name}</h3>
+                  <h2>{value.car.cost}</h2>
+                  <h4>Description</h4>
+                  <p>{value.car.word}</p>
+                  <button className="BtnCon">Continue to payment</button>
+                </div>
+                <div className="EnterAccountCon">
+                  <h2>Enter Account Details</h2>
+                  <h3>First name</h3>
+                  <input type="text" placeholder="First name"></input>
+                  <h3>Last name</h3>
+                  <input type="text" placeholder="Last name"></input>
+                  <h3>Email</h3>
+                  <input type="email" placeholder="Your email"></input>
+                  <h3>Mobile Phone Number</h3>
+                  <input
+                    type="number"
+                    placeholder="Mobile Phone Number"
+                  ></input>
+                </div>
+                <br></br>
+                <div className="EnterAccountCon">
+                  <h2>Card</h2>
+                  <h3>Name on card</h3>
+                  <input type="text" placeholder="Name on card"></input>
+                  <h3>Card Number</h3>
+                  <input type="number" placeholder="Card Number"></input>
+                  <h3>Expiration Month</h3>
+                  <input type="month" placeholder="01"></input>
+                  <h3>Expiration Year</h3>
+                  <input type="date" placeholder="2022"></input>
+                  <h3>CVV</h3>
+                  <input type="number" placeholder="CVV"></input>
+                  <h3>Billing Zip Cod</h3>
+                  <input type="number" placeholder="Billing Zip Cod"></input>
+                  <button className="BottomBtn">Place Order</button>
+                </div>
+              </div>
             </div>
           </div>
         );

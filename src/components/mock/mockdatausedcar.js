@@ -37,7 +37,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco",
-        cost: "40,200,000",
+        cost: "40,200,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
@@ -67,7 +67,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img3}`,
         name: "Knaus 650",
-        cost: "43,700,000",
+        cost: "43,700,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
@@ -97,7 +97,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg 600",
-        cost: "43,700,000",
+        cost: "43,700,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "5인",
@@ -127,7 +127,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img4}`,
         name: "Autostar P730LC",
-        cost: "46,100,000",
+        cost: "46,100,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
@@ -157,7 +157,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg 600",
-        cost: "45,300,000",
+        cost: "45,300,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "6인",
@@ -186,7 +186,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco",
-        cost: "43,700,000",
+        cost: "43,700,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "6인",
@@ -215,7 +215,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg 600",
-        cost: "42,600,000",
+        cost: "42,600,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "3인",
@@ -244,7 +244,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco",
-        cost: "32,900,000",
+        cost: "32,900,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "6인",
@@ -273,7 +273,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img5}`,
         name: "Chausson",
-        cost: "35,200,000",
+        cost: "35,200,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -303,7 +303,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img4}`,
         name: "Autostar P730LC",
-        cost: "32,800,000",
+        cost: "32,800,000 KRW",
         type: "이베코 뉴데일리",
         license: "1종 보통",
         people: "6인",
@@ -332,7 +332,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img5}`,
         name: "Chausson",
-        cost: "32,800,000",
+        cost: "32,800,000 KRW",
         type: "이베코 뉴데일리",
         license: "1종 보통",
         people: "6인",
@@ -361,7 +361,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg 600",
-        cost: "39,000,000",
+        cost: "39,000,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -390,7 +390,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img3}`,
         name: "Knaus 650",
-        cost: "36,100,000",
+        cost: "36,100,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
@@ -419,7 +419,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco",
-        cost: "40,000,000",
+        cost: "40,000,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
@@ -448,7 +448,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco",
-        cost: "29,900,000",
+        cost: "29,900,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -477,7 +477,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg 600",
-        cost: "29,900,000",
+        cost: "29,900,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -506,7 +506,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco",
-        cost: "29,000,000",
+        cost: "29,000,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "3인",
@@ -535,7 +535,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg 600",
-        cost: "39,000,000",
+        cost: "39,000,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: "3인",
@@ -564,7 +564,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco",
-        cost: "33,000,000",
+        cost: "33,000,000 KRW",
         type: "포터",
         license: "2종 보통",
         people: " 6인",
@@ -593,7 +593,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img3}`,
         name: "Knaus 650",
-        cost: "36,000,000",
+        cost: "36,000,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
@@ -622,7 +622,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco",
-        cost: "45,000,000",
+        cost: "45,000,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "3인",
@@ -651,7 +651,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco",
-        cost: "37,000,000",
+        cost: "37,000,000 KRW",
         type: "르노마스터",
         license: "1종 보통",
         people: "5인",
@@ -680,7 +680,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img2}`,
         name: "Weinsberg 600",
-        cost: "34,000,000",
+        cost: "34,000,000 KRW",
         type: "포터",
         license: " 2종 보통",
         people: "6인",
@@ -709,7 +709,7 @@ export const campcarUsedCar = {
       car: {
         photo: `${img}`,
         name: "Etrusco",
-        cost: "36,000,000",
+        cost: "36,000,000 KRW",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
