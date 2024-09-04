@@ -66,13 +66,13 @@ const Navbar = () => {
         <NavLink to={"/login"}>
           <Man src={man} alt="man-img" className="ManImg" />
         </NavLink>
-        <Menu src={menu} alt="menu-icon" className="menu-icon" />
         <Enlang>
           <div className="en-lang">
             <p>En</p>
             <Arrow src={arrow} />
           </div>
         </Enlang>
+        <Menu src={menu} alt="menu-icon" className="menu-icon2" />
       </IconWrapper>
     </Container>
   );

@@ -48,7 +48,7 @@ import { Link } from "react-router-dom";
 import { Button } from "./style";
 import Hmenu from "./menu/Hmenu";
 import Vmenu from "./menu/Vmenu";
-import MainCarousel from "../carousel";
+import AccordionUsage from "../SidebarAccordion";
 
 const MotorComponent = () => {
   const data = campcar.maindata;
@@ -85,7 +85,21 @@ const MotorComponent = () => {
               </div>
             </div>
           </CostOfCar>
-          <BrandCon>
+          <br />
+          <AccordionUsage />
+          <ButtonCon>
+            <button className="yellow-btn">Cancel</button>
+            <button className="blue-btn">Search</button>
+          </ButtonCon>
+          <CompareCon>
+            <p>Compare</p>
+            <div className="car-img-con">
+              <img src={car1} alt="car-1" />
+              <img src={car2} alt="car-2" />
+              <img src={car3} alt="car-3" />
+            </div>
+          </CompareCon>
+          {/* <BrandCon>
             <div className="brand-arrow-con h3-style">
               <p>Brand</p>
               <img src={arrow} alt="arrow" />
@@ -180,19 +194,7 @@ const MotorComponent = () => {
                 <p>Pusan</p>
               </div>
             </div>
-          </LocationCon>
-          <ButtonCon>
-            <button className="yellow-btn">Cancel</button>
-            <button className="blue-btn">Search</button>
-          </ButtonCon>
-          <CompareCon>
-            <p>Compare</p>
-            <div className="car-img-con">
-              <img src={car1} alt="car-1" />
-              <img src={car2} alt="car-2" />
-              <img src={car3} alt="car-3" />
-            </div>
-          </CompareCon>
+          </LocationCon> */}
         </SideBarCon>
         <MainItemCon>
           <ItemContainer>

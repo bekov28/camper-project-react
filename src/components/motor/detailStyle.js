@@ -56,10 +56,15 @@ export const ButtonCon = styled.div`
     border: 1px solid #fff;
   }
   .addToCart {
-    background: var(--blue, #006dab);
-    border: none;
+    background-color: transparent;
+    border: 1px solid #fff;
   }
-
+  .compareBtn:hover {
+    background: var(--blue, #006dab);
+  }
+  .addToCart:hover {
+    background: var(--blue, #006dab);
+  }
   .compareBtn2 {
     width: 180px;
     height: 50px;
@@ -233,6 +238,13 @@ export const ComfortConLeft = styled.div`
     font-weight: 600;
     line-height: normal;
   }
+  button:hover {
+    background: var(--blue, #006dab);
+    p {
+      color: white;
+    }
+  }
+
   @media only screen and (max-width: 1450px) {
     display: none;
   }

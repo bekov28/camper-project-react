@@ -1,7 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-import photo1 from "../carousel/assets/back1.svg";
-import photo2 from "../carousel/assets/back2.svg";
 import "react-slick";
 import "./style.css";
 import car1 from "./assets/car-1.svg";
@@ -12,38 +10,17 @@ import button from "./assets/group.svg";
 import blog1 from "./assets/blog1.svg";
 import blog2 from "./assets/blog2.svg";
 import blog3 from "./assets/blog3.svg";
-import "@coreui/coreui/dist/css/coreui.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
 import arrow from "./assets/arrow.svg";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+import back1 from "./assets/back1.svg";
+import back2 from "./assets/back2.svg";
+import App from "./modal/popup/VideoPopup";
+import VideoPopup from "./modal/popup/VideoPopup";
+import PopupVideo from "./modal/popup/App";
 
-import group1 from "./modalassets/group1.svg";
-import group2 from "./modalassets/group2.svg";
-import group3 from "./modalassets/group3.svg";
-import group4 from "./modalassets/group4.svg";
-import group5 from "./modalassets/group5.svg";
-import group6 from "./modalassets/group6.svg";
-import group7 from "./modalassets/group7.svg";
-import group8 from "./modalassets/group8.svg";
-import { Link } from "react-router-dom";
-import ModalComponent from "./modalassets/modal/modal";
-import ModalComponent2 from "./modalassets/modal/modal2";
-import ModalComponent3 from "./modalassets/modal/modal3";
-import ModalComponent4 from "./modalassets/modal/modal4";
-import ModalComponent5 from "./modalassets/modal/modal5";
-import ModalComponent6 from "./modalassets/modal/modal6";
-import ModalComponent7 from "./modalassets/modal/modal7";
-import ModalComponent8 from "./modalassets/modal/modal8";
-
-export default function MainCarousel() {
-  // var settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  // };
-
+export default function MainPage() {
   var setting = {
     dots: true,
     infinite: true,
@@ -80,14 +57,14 @@ export default function MainCarousel() {
   };
   return (
     <div>
-      <CCarousel controls indicators>
-        <CCarouselItem className="ImgCon">
-          <CImage src={photo1} alt="slide 1" style={{ width: "100%" }} />
-        </CCarouselItem>
-        <CCarouselItem>
-          <CImage src={photo2} alt="slide 2" style={{ width: "100%" }} />
-        </CCarouselItem>
-      </CCarousel>
+      <Carousel>
+        <div>
+          <img src={back1} />
+        </div>
+        <div>
+          <img src={back2} />
+        </div>
+      </Carousel>
       <div className="Recommend">
         <h4>Recommend</h4>
         <p></p>
@@ -232,16 +209,8 @@ export default function MainCarousel() {
         <h4>Videos</h4>
         <p></p>
       </div>
-      <div className="VideoCon">
-        <ModalComponent />
-        <ModalComponent2 />
-        <ModalComponent3 />
-        <ModalComponent4 />
-        <ModalComponent5 />
-        <ModalComponent6 />
-        <ModalComponent7 />
-        <ModalComponent8 />
-      </div>
+
+      <PopupVideo/>
 
       <div className="Recommend">
         <h4>Blogs</h4>

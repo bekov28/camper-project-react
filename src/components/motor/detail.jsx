@@ -41,9 +41,11 @@ const MotorDetail = () => {
             <BackgroundCon>
               <h3>{value.car.name}</h3>
               <ButtonCon>
-                <button className="addToCart">
-                  <p>ADD TO CART</p>
-                </button>
+                <Link to={`/motor/:id/${value.id}`}>
+                  <button className="addToCart">
+                    <p>ADD TO CART</p>
+                  </button>
+                </Link>
                 <button className="compareBtn">
                   <p>COMPARE</p>
                 </button>
@@ -124,7 +126,7 @@ const MotorDetail = () => {
                 <h4>{value.car.word4}</h4>
                 <ButtonCon>
                   <Link to={`/motor/:id/${value.id}`}>
-                    <button className="addToCart">
+                    <button className="compareBtn2">
                       <p>ADD TO CART</p>
                     </button>
                   </Link>

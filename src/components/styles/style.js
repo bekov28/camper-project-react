@@ -85,10 +85,23 @@ export const IconWrapper = styled.div`
   }
 `;
 
-export const Cart = styled.img``;
+export const Cart = styled.img`
+  @media only screen and (max-width: 850px) {
+    margin-right: -0px;
+  }
+`;
 
-export const Man = styled.img``;
-export const Menu = styled.img``;
+export const Man = styled.img`
+  @media only screen and (max-width: 850px) {
+    display: none;
+  }
+`;
+export const Menu = styled.img`
+  display: none;
+  @media only screen and (max-width: 850px) {
+    display: flex;
+  }
+`;
 
 export const Enlang = styled.div`
   display: flex;
@@ -177,6 +190,7 @@ export const SideBarCon = styled.div`
   flex-shrink: 0;
   margin-left: 70px;
   cursor: pointer;
+  margin-top: -340px;
 
   @media only screen and (max-width: 1350px) {
     display: none;
@@ -185,7 +199,7 @@ export const SideBarCon = styled.div`
 
 export const CostOfCar = styled.div`
   padding-top: 15px;
- 
+
   .h3-style {
     color: var(--text, #373737);
     font-size: 18px;
@@ -233,50 +247,14 @@ export const BrandCon = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
-
-  .brand-arrow-con {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 240px;
-    height: 33px;
-    border: none;
-    color: var(--text, #373737);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%;
-    border: none;
-    border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-  }
-  .h3-style {
-    color: var(--text, #373737);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%;
-    width: 240px;
-    height: 33px;
-    border: none;
-    border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 20px;
-  }
+  
 
   .brand-mini {
     display: flex;
     align-items: center;
     gap: 18px;
   }
-  .aidal-wrapper {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+
   .checkbox {
     width: 22px;
     height: 22px;
@@ -295,49 +273,13 @@ export const BrandCon = styled.div`
 `;
 export const CompanyCon = styled.div`
   flex: 1;
-  margin-top: 30px;
 
   .brand-mini {
     display: flex;
     align-items: center;
     gap: 18px;
   }
-  .brand-arrow-con {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 240px;
-    height: 33px;
-    border: none;
-    color: var(--text, #373737);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%;
-    border: none;
-    border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-  }
-  .h3-style {
-    color: var(--text, #373737);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%;
-    width: 240px;
-    height: 33px;
-    border: none;
-    border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 20px;
-  }
-  .aidal-wrapper {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+
   .checkbox {
     width: 22px;
     height: 22px;
@@ -349,34 +291,11 @@ export const CompanyCon = styled.div`
 `;
 export const LicenseCon = styled.div`
   flex: 1;
-  margin-top: 30px;
 
-  .brand-arrow-con {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 240px;
-    height: 33px;
-    border: none;
-    color: var(--text, #373737);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%;
-    border: none;
-    border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-  }
   .brand-mini {
     display: flex;
     align-items: center;
     gap: 18px;
-  }
-
-  .aidal-wrapper {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
   }
 
   .checkbox {
@@ -394,54 +313,16 @@ export const LicenseCon = styled.div`
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
-  }
-  .h3-style {
-    color: var(--text, #373737);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%;
-    width: 240px;
-    height: 33px;
-    border: none;
-    border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 20px;
   }
 `;
 
 export const NumberCon = styled.div`
   flex: 1;
-  margin-top: 30px;
 
-  .brand-arrow-con {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 240px;
-    height: 33px;
-    border: none;
-    color: var(--text, #373737);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%;
-    border: none;
-    border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-  }
   .brand-mini {
     display: flex;
     align-items: center;
     gap: 18px;
-  }
-
-  .aidal-wrapper {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
   }
 
   .checkbox {
@@ -459,53 +340,15 @@ export const NumberCon = styled.div`
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
-  }
-  .h3-style {
-    color: var(--text, #373737);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%;
-    width: 240px;
-    height: 33px;
-    border: none;
-    border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 20px;
   }
 `;
 export const LocationCon = styled.div`
   flex: 1;
-  margin-top: 30px;
 
-  .brand-arrow-con {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 240px;
-    height: 33px;
-    border: none;
-    color: var(--text, #373737);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%;
-    border: none;
-    border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-  }
   .brand-mini {
     display: flex;
     align-items: center;
     gap: 18px;
-  }
-
-  .aidal-wrapper {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
   }
 
   .checkbox {
@@ -523,21 +366,6 @@ export const LocationCon = styled.div`
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
-  }
-  .h3-style {
-    color: var(--text, #373737);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%;
-    width: 240px;
-    height: 33px;
-    border: none;
-    border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 20px;
   }
 `;
 export const ButtonCon = styled.div`
