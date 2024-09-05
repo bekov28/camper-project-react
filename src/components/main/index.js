@@ -16,9 +16,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import back1 from "./assets/back1.svg";
 import back2 from "./assets/back2.svg";
-import App from "./modal/popup/VideoPopup";
-import VideoPopup from "./modal/popup/VideoPopup";
-import PopupVideo from "./modal/popup/App";
+import AppModal from "./modal/popup/videoCon";
+
+
 
 export default function MainPage() {
   var setting = {
@@ -57,7 +57,7 @@ export default function MainPage() {
   };
   return (
     <div>
-      <Carousel>
+      <Carousel showThumbs={false}>
         <div>
           <img src={back1} />
         </div>
@@ -210,7 +210,7 @@ export default function MainPage() {
         <p></p>
       </div>
 
-      <PopupVideo/>
+      <AppModal />
 
       <div className="Recommend">
         <h4>Blogs</h4>
