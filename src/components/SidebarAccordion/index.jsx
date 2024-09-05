@@ -8,12 +8,15 @@ import Button from "@mui/material/Button";
 import "../styles/style";
 import {
   BrandCon,
+  ButtonCon,
   CompanyCon,
+  CostOfCar,
   LicenseCon,
   LocationCon,
   NumberCon,
 } from "../styles/style";
-import { LinkedCameraOutlined } from "@mui/icons-material";
+import { Height, LinkedCameraOutlined } from "@mui/icons-material";
+import IconLabelButtons from "../motor/Button";
 
 export default function AccordionUsage() {
   return (
@@ -25,8 +28,34 @@ export default function AccordionUsage() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
+          Cost of car
+        </AccordionSummary>
+
+        <AccordionDetails>
+          <CostOfCar>
+            <div className="FromTwoCon">
+              <div>
+                <h4>from</h4>
+                <input type="text" className="CostInput" />
+              </div>
+              <div>
+                <h4>to</h4>
+                <input type="text" className="CostInput" />
+              </div>
+            </div>
+          </CostOfCar>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion defaultExpanded sx={{ width: "240px" }}>
+        <AccordionSummary
+          sx={{ margin: "0px" }}
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1-content"
+          id="panel1-header"
+        >
           Brand
         </AccordionSummary>
+
         <AccordionDetails>
           <BrandCon>
             <div className="brand-mini">
@@ -137,6 +166,7 @@ export default function AccordionUsage() {
               <input type="checkbox" class="checkbox" />
               <p>Pusan</p>
             </div>
+            <IconLabelButtons />
           </LocationCon>
         </AccordionDetails>
       </Accordion>

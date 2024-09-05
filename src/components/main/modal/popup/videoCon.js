@@ -62,15 +62,15 @@ const AppModal = () => {
   return (
     <>
       <Video_ConTainer>
-        <div
-          style={{
-            textAlign: "center",
-            marginTop: "50px",
-            display: "grid",
-            gridTemplateAreas: `"a a a a" "b b b b"`,
-            borderRadius: "8px",
-            justifyContent: "center",
-          }}
+        <div className="VideoCon"
+          // style={{
+          //   textAlign: "center",
+          //   marginTop: "50px",
+          //   display: "grid",
+          //   gridTemplateAreas: `"a a a a" "b b b b"`,
+          //   borderRadius: "8px",
+          //   justifyContent: "center",
+          // }}
         >
           {modals.map((modal, index) => (
             <img
@@ -84,7 +84,7 @@ const AppModal = () => {
                 width: "292px",
                 height: "292px",
                 borderRadius: "8px",
-                boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.30)",
+                // boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.30)",
               }}
             />
           ))}

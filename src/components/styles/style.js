@@ -175,6 +175,11 @@ export const NotFound = styled.img`
   margin-top: 100px;
 `;
 
+export const MainBodyMain = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 export const MainBodyCon = styled.div`
   display: flex;
   margin-top: 70px;
@@ -183,14 +188,14 @@ export const MainBodyCon = styled.div`
 
 export const SideBarCon = styled.div`
   display: flex;
-  height: 1279.762px;
+  flex: 1;
+  /* height: 1279.762px; */
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-shrink: 0;
   margin-left: 70px;
   cursor: pointer;
-  margin-top: -340px;
 
   @media only screen and (max-width: 1350px) {
     display: none;
@@ -198,7 +203,7 @@ export const SideBarCon = styled.div`
 `;
 
 export const CostOfCar = styled.div`
-  padding-top: 15px;
+  /* padding-top: 15px; */
 
   .h3-style {
     color: var(--text, #373737);
@@ -236,7 +241,7 @@ export const CostOfCar = styled.div`
   .FromTwoCon {
     display: flex;
     gap: 25px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   .CostInput {
     padding: 5px;
@@ -247,7 +252,6 @@ export const BrandCon = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  
 
   .brand-mini {
     display: flex;
@@ -370,8 +374,11 @@ export const LocationCon = styled.div`
 `;
 export const ButtonCon = styled.div`
   margin-top: 30px;
+  display: flex;
+  
+
   .yellow-btn {
-    width: 115.804px;
+    width: 110px;
     height: 38.968px;
     flex-shrink: 0;
     border-radius: 60px;
@@ -385,11 +392,11 @@ export const ButtonCon = styled.div`
     font-weight: 700;
     line-height: normal;
     cursor: pointer;
-    margin-right: 10px;
+    /* margin-right: 10px; */
   }
 
   .blue-btn {
-    width: 115.804px;
+    width: 110px;
     height: 38.968px;
     flex-shrink: 0;
     border-radius: 60px;
@@ -431,7 +438,7 @@ export const CompareCon = styled.div`
 `;
 
 export const MainItemCon = styled.div`
-  /* flex: 4; */
+  flex: 4;
   margin-left: 10px;
   /* display: grid;
   grid-template-areas: ("a a a a"); */

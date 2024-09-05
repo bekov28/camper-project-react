@@ -21,7 +21,7 @@ import AppModal from "./modal/popup/videoCon";
 
 
 export default function MainPage() {
-  var setting = {
+  var settings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -30,7 +30,7 @@ export default function MainPage() {
     arrows: false,
     responsive: [
       {
-        breakpoint: 1350,
+        breakpoint: 1250,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -39,7 +39,7 @@ export default function MainPage() {
         },
       },
       {
-        breakpoint: 1050,
+        breakpoint: 900,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -47,7 +47,7 @@ export default function MainPage() {
         },
       },
       {
-        breakpoint: 730,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -70,7 +70,7 @@ export default function MainPage() {
         <p></p>
       </div>
       <div className="MiniCarouselMain">
-        <Slider {...setting}>
+        <Slider {...settings}>
           <div className="MiniCarousel">
             <img src={car1} alt="car-1" className="ImgSize" />
             <div className="KnausCon">

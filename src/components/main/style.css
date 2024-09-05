@@ -130,6 +130,7 @@
 .BlogRight {
   display: grid;
   grid-template-areas: "a a a";
+  gap: 10px;
 }
 .VideoCon {
   margin-top: 30px;
@@ -144,29 +145,34 @@
   }
 }
 
+/* Responsive Syyles */
+
 @media only screen and (max-width: 1250px) {
-  .VideoCon {
-    grid-template-areas: "a a a";
-  }
   .BlogRight {
     grid-template-areas: "a a";
   }
-
 }
-@media only screen and (max-width: 940px) {
-  .VideoCon {
-    grid-template-areas: "a a";
-  }
-
+@media only screen and (max-width: 900px) {
   .BlogLeft {
     display: none;
   }
 }
-@media only screen and (max-width: 650px) {
-  .VideoCon {
-    grid-template-areas: "a";
-  }
+@media only screen and (max-width: 600px) {
   .BlogRight {
     grid-template-areas: "a";
+  }
+
+  .BlogLeft {
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    h5 {
+      width: 268px;
+    }
+  }
+  .MainBlog {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
