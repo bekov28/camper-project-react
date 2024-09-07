@@ -33,9 +33,9 @@ import {
   TwoIconCon,
 } from "../styles/style";
 import arrow from "../../assets/big-arrow.svg";
-import car1 from "../../assets/img-1.png";
-import car2 from "../../assets/img-1.png";
-import car3 from "../../assets/img-1.png";
+import car1 from "../../assets/compare1.svg";
+import car2 from "../../assets/compare2.svg";
+import car3 from "../../assets/compare3.svg";
 import itemarrow from "../../assets/item-arrow.svg";
 import grid from "../../assets/grid.svg";
 import round from "../../assets/round.svg";
@@ -50,6 +50,9 @@ import { Button } from "./style";
 import Hmenu from "./menu/Hmenu";
 import Vmenu from "./menu/Vmenu";
 import AccordionUsage from "../SidebarAccordion";
+import IconLabelButtons from "./Button";
+import CompareBtn from "./CompareBtn";
+import { JoinFullSharp } from "@mui/icons-material";
 
 const MotorComponent = () => {
   const data = campcar.maindata;
@@ -82,6 +85,9 @@ const MotorComponent = () => {
                 <img src={car2} alt="car-2" />
                 <img src={car3} alt="car-3" />
               </div>
+              <Link to={`/Compare/`} style={{ textDecoration: "none" }}>
+                <CompareBtn />
+              </Link>
             </CompareCon>
           </SideBarCon>
           <MainItemCon>

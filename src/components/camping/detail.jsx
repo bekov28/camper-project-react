@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { campcarCamping } from "../mock/mockdatacamping";
+import { campcarCamping, campcarCampingPage } from "../mock/mockdatacamping";
 import pic1 from "../camping/assets/img-1.svg";
 import pic2 from "../camping/assets/img-2.svg";
 import pic3 from "../camping/assets/img-3.svg";
@@ -26,7 +26,7 @@ import {
 const CampingDetail = () => {
   const { id } = useParams();
 
-  const data = campcarCamping.maindata;
+  const data = campcarCampingPage.maindata;
   // console.log(data);
   // console.log(id);
 

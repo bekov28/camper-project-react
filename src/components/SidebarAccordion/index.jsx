@@ -17,13 +17,28 @@ import {
 } from "../styles/style";
 import { Height, LinkedCameraOutlined } from "@mui/icons-material";
 import IconLabelButtons from "../motor/Button";
+import { Box } from "@mui/material";
 
 export default function AccordionUsage() {
   return (
     <div>
-      <Accordion defaultExpanded sx={{ width: "240px" }}>
+      <Accordion
+        defaultExpanded
+        sx={{
+          width: "240px",
+          fontWeight: "600",
+        }}
+      >
         <AccordionSummary
-          sx={{ margin: "0px" }}
+          sx={{
+            margin: "0",
+            "&.Mui-expanded .MuiAccordionSummary-content": {
+              margin: "0px",
+            },
+            color: "var(--text, #373737)",
+            fontFamily: "Montserrat",
+          }}
+          disableGutters="true"
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
@@ -46,9 +61,14 @@ export default function AccordionUsage() {
           </CostOfCar>
         </AccordionDetails>
       </Accordion>
-      <Accordion defaultExpanded sx={{ width: "240px" }}>
+      <Accordion defaultExpanded sx={{ width: "240px", fontWeight: "600" }}>
         <AccordionSummary
-          sx={{ margin: "0px" }}
+          sx={{
+            margin: "0px",
+            "&.Mui-expanded .MuiAccordionSummary-content": {
+              margin: "0px",
+            },
+          }}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
@@ -60,20 +80,29 @@ export default function AccordionUsage() {
           <BrandCon>
             <div className="brand-mini">
               <input type="checkbox" class="checkbox" />
-              <p>Aidal</p>
+              <p>르벤투스S+</p>
             </div>
             <div className="brand-mini">
               <input type="checkbox" class="checkbox" />
-              <p>Knal</p>
+              <p>ST-7</p>
             </div>
             <div className="brand-mini">
               <input type="checkbox" class="checkbox" />
-              <p>escape</p>
+              <p>ACIER 790R</p>
             </div>
           </BrandCon>
         </AccordionDetails>
       </Accordion>
-      <Accordion defaultExpanded sx={{ width: "240px" }}>
+      <Accordion
+        defaultExpanded
+        sx={{
+          width: "240px",
+          fontWeight: "600",
+          "&.Mui-expanded .MuiAccordionSummary-content": {
+            margin: "0px",
+          },
+        }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -85,16 +114,25 @@ export default function AccordionUsage() {
           <CompanyCon>
             <div class="brand-mini">
               <input type="checkbox" class="checkbox" />
-              <p>escape</p>
+              <p>다온티앤티</p>
             </div>
             <div className="brand-mini">
               <input type="checkbox" class="checkbox" />
-              <p>Aidal</p>
+              <p>제일모빌</p>
             </div>
           </CompanyCon>
         </AccordionDetails>
       </Accordion>
-      <Accordion defaultExpanded sx={{ width: "240px" }}>
+      <Accordion
+        defaultExpanded
+        sx={{
+          width: "240px",
+          fontWeight: "600",
+          "&.Mui-expanded .MuiAccordionSummary-content": {
+            margin: "0px",
+          },
+        }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
@@ -119,7 +157,17 @@ export default function AccordionUsage() {
           </LicenseCon>
         </AccordionDetails>
       </Accordion>
-      <Accordion defaultExpanded sx={{ width: "240px" }}>
+      <Accordion
+        defaultExpanded
+        sx={{
+          width: "240px",
+          fontWeight: "600",
+          "&.Mui-expanded .MuiAccordionSummary-content": {
+            margin: "0px",
+            fontWeight: "600",
+          },
+        }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
@@ -144,7 +192,17 @@ export default function AccordionUsage() {
           </NumberCon>
         </AccordionDetails>
       </Accordion>
-      <Accordion defaultExpanded sx={{ width: "240px" }}>
+      <Accordion
+        defaultExpanded
+        sx={{
+          width: "240px",
+          fontWeight: "600",
+          "&.Mui-expanded .MuiAccordionSummary-content": {
+            margin: "0px",
+            fontWeight: "600",
+          },
+        }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
@@ -164,7 +222,7 @@ export default function AccordionUsage() {
             </div>
             <div className="brand-mini">
               <input type="checkbox" class="checkbox" />
-              <p>Pusan</p>
+              <p>Busan</p>
             </div>
             <IconLabelButtons />
           </LocationCon>

@@ -1,14 +1,14 @@
 import React from "react";
-import { BackgroundCamping, ImgCon, MainCon } from "./style";
+import { BackgroundCamping, ImgCon, MainCon, MainMainCon } from "./style";
 import img1 from "../camping/assets/img-1.svg";
 import img2 from "../camping/assets/img-2.svg";
 import img3 from "../camping/assets/img-3.svg";
 import { Link } from "react-router-dom";
-import { campcarCamping } from "../mock/mockdatacamping";
+import { campcarCampingPage } from "../mock/mockdatacamping";
 
 const CampingPlaceComponent = () => {
-  const data = campcarCamping.maindata;
-  // console.log(data);
+  const data = campcarCampingPage.maindata;
+  console.log(data);
 
   return (
     <div>
@@ -20,67 +20,25 @@ const CampingPlaceComponent = () => {
         {data.map((value, index) => {
           return (
             <div key={index}>
-              <Link to={`/camping/${value.id}`}>
+              <Link
+                to={`/camping/${value.id}`}
+                style={{ textDecoration: "none" }}
+              >
                 <MainCon>
                   <ImgCon>
-                    <img src={img1} alt="img-1" />
-                    <h5>Surfyy Beach Camping</h5>
-                    <h6>Yangyang-gun</h6>
+                    <img src={value.camping.photo} alt="img" />
+                    <h5>{value.camping.name}</h5>
+                    <h6>{value.camping.location}</h6>
                   </ImgCon>
                   <ImgCon>
-                    <img src={img2} alt="img-2" />
-                    <h5>Nanji Camp</h5>
-                    <h6>Sangam-dong</h6>
+                    <img src={value.camping.photo} alt="img" />
+                    <h5>{value.camping.name}</h5>
+                    <h6>{value.camping.location}</h6>
                   </ImgCon>
                   <ImgCon>
-                    <img src={img3} alt="img-3" />
-                    <h5> Jeju Starlight Glamping</h5>
-                    <h6>Jeju-do</h6>
-                  </ImgCon>
-                  <ImgCon>
-                    <img src={img1} alt="img-1" />
-                    <h5>Surfyy Beach Camping</h5>
-                    <h6>Yangyang-gun</h6>
-                  </ImgCon>
-                  <ImgCon>
-                    <img src={img2} alt="img-2" />
-                    <h5>Nanji Camp</h5>
-                    <h6>Sangam-dong</h6>
-                  </ImgCon>
-                  <ImgCon>
-                    <img src={img3} alt="img-3" />
-                    <h5> Jeju Starlight Glamping</h5>
-                    <h6>Jeju-do</h6>
-                  </ImgCon>
-                  <ImgCon>
-                    <img src={img1} alt="img-1" />
-                    <h5>Surfyy Beach Camping</h5>
-                    <h6>Yangyang-gun</h6>
-                  </ImgCon>
-                  <ImgCon>
-                    <img src={img2} alt="img-2" />
-                    <h5>Nanji Camp</h5>
-                    <h6>Sangam-dong</h6>
-                  </ImgCon>
-                  <ImgCon>
-                    <img src={img3} alt="img-3" />
-                    <h5> Jeju Starlight Glamping</h5>
-                    <h6>Jeju-do</h6>
-                  </ImgCon>
-                  <ImgCon>
-                    <img src={img1} alt="img-1" />
-                    <h5>Surfyy Beach Camping</h5>
-                    <h6>Yangyang-gun</h6>
-                  </ImgCon>
-                  <ImgCon>
-                    <img src={img2} alt="img-2" />
-                    <h5>Nanji Camp</h5>
-                    <h6>Sangam-dong</h6>
-                  </ImgCon>
-                  <ImgCon>
-                    <img src={img3} alt="img-3" />
-                    <h5> Jeju Starlight Glamping</h5>
-                    <h6>Jeju-do</h6>
+                    <img src={value.camping.photo} alt="img" />
+                    <h5>{value.camping.name}</h5>
+                    <h6>{value.camping.location}</h6>
                   </ImgCon>
                 </MainCon>
               </Link>

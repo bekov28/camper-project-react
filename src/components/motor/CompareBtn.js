@@ -4,9 +4,18 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import SendIcon from "@mui/icons-material/Send";
 import Stack from "@mui/material/Stack";
 
-export default function IconLabelButtons() {
+export default function CompareBtn() {
   return (
-    <Stack direction="row" spacing={2} sx={{ marginTop: "20px" }}>
+    <Stack
+      direction="row"
+      spacing={2}
+      sx={{
+        marginTop: "20px",
+        display: "flex",
+        justifyContent: "right",
+        textDecoration: "none",
+      }}
+    >
       <Button
         variant="outlined"
         sx={{
@@ -17,20 +26,7 @@ export default function IconLabelButtons() {
           borderRadius: "10px",
         }}
       >
-        Cancel
-      </Button>
-      <Button
-        variant="outlined"
-        sx={{
-          "&:hover": {
-            backgroundColor: "primary.main",
-            color: "white",
-            backgroundColor: "#006DAB",
-          },
-          borderRadius: "10px",
-        }}
-      >
-        Search
+        Compare
       </Button>
     </Stack>
   );

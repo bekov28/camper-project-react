@@ -9,6 +9,7 @@ export const Container = styled.div`
   background-color: white;
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
 `;
+
 export const LogoWrapper = styled.div`
   flex: 1;
   display: flex;
@@ -168,6 +169,12 @@ export const BackgroundImg = styled.div`
   }
 `;
 
+// Compare our models
+
+
+
+
+
 // Not Found Component
 
 export const NotFound = styled.img`
@@ -187,7 +194,6 @@ export const MainBodyCon = styled.div`
 `;
 
 export const SideBarCon = styled.div`
-  display: flex;
   flex: 1;
   /* height: 1279.762px; */
   flex-direction: column;
@@ -203,9 +209,9 @@ export const SideBarCon = styled.div`
 `;
 
 export const CostOfCar = styled.div`
-  /* padding-top: 15px; */
+  margin-top: 0;
 
-  .h3-style {
+  /* .h3-style {
     color: var(--text, #373737);
     font-size: 18px;
     font-style: normal;
@@ -221,7 +227,7 @@ export const CostOfCar = styled.div`
     border: none;
     border-bottom: 1px solid rgba(55, 55, 55, 0.3);
     margin-bottom: 0;
-  }
+  } */
   h4 {
     color: var(--text, #373737);
     font-size: 14px;
@@ -249,9 +255,9 @@ export const CostOfCar = styled.div`
 `;
 
 export const BrandCon = styled.div`
-  flex: 1;
   display: flex;
   flex-direction: column;
+  gap: 5px;
 
   .brand-mini {
     display: flex;
@@ -276,12 +282,22 @@ export const BrandCon = styled.div`
   }
 `;
 export const CompanyCon = styled.div`
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 
   .brand-mini {
     display: flex;
     align-items: center;
     gap: 18px;
+    gap: 5px;
+  }
+  .brand-mini p {
+    color: var(--text, #373737);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
   }
 
   .checkbox {
@@ -294,7 +310,9 @@ export const CompanyCon = styled.div`
   }
 `;
 export const LicenseCon = styled.div`
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 
   .brand-mini {
     display: flex;
@@ -321,7 +339,9 @@ export const LicenseCon = styled.div`
 `;
 
 export const NumberCon = styled.div`
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 
   .brand-mini {
     display: flex;
@@ -347,7 +367,9 @@ export const NumberCon = styled.div`
   }
 `;
 export const LocationCon = styled.div`
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 
   .brand-mini {
     display: flex;
@@ -375,7 +397,6 @@ export const LocationCon = styled.div`
 export const ButtonCon = styled.div`
   margin-top: 30px;
   display: flex;
-  
 
   .yellow-btn {
     width: 110px;

@@ -30,6 +30,7 @@ export const BackgroundCamping = styled.div`
     line-height: normal;
   }
 `;
+
 export const MainCon = styled.div`
   margin-top: 80px;
   display: grid;
@@ -38,6 +39,8 @@ export const MainCon = styled.div`
   justify-content: center;
   gap: 50px;
   cursor: pointer;
+  /* height: 367px; */
+
   @media only screen and (max-width: 1350px) {
     display: grid;
     grid-template-areas: "a a";
@@ -48,6 +51,8 @@ export const MainCon = styled.div`
   }
 `;
 export const ImgCon = styled.div`
+  width: 395px;
+
   h5 {
     color: var(--text, #373737);
     font-size: 22px;
@@ -67,17 +72,17 @@ export const ImgCon = styled.div`
 `;
 
 // CampingDetails
+
 export const MainDiv = styled.div`
   display: flex;
   justify-content: center;
 `;
 
 export const MainContainer = styled.div`
-  padding-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1300px;
+  padding-top: 50px;
 `;
 
 export const DetailImg = styled.div`
@@ -116,20 +121,22 @@ export const DetailImg = styled.div`
 `;
 
 export const SurfyyCon = styled.div`
+  padding-left: 50px;
+  padding-right: 50px;
   @media only screen and (max-width: 1350px) {
     width: 1100px;
-    padding-left: 20px;
   }
   @media only screen and (max-width: 1140px) {
-    width: 900px;
+    width: 100%;
   }
   @media only screen and (max-width: 950px) {
-    width: 600px;
+    width: 100%;
   }
 `;
 
 export const CampingCon = styled.div`
   margin-top: 20px;
+
   p {
     color: #000;
     font-size: 25px;
@@ -138,7 +145,7 @@ export const CampingCon = styled.div`
     line-height: normal;
   }
   h1 {
-    width: 1300px;
+    width: 100%;
     height: 1px;
     background: rgba(55, 55, 55, 0.2);
     margin-top: 15px;
