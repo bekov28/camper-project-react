@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import car from "../../assets/car.svg";
+import Drawer from "@mui/material/Drawer";
 
 export const Container = styled.div`
   padding: 20px;
@@ -21,16 +22,16 @@ export const LogoWrapper = styled.div`
   .menu-icon {
     display: none;
   }
+`;
+
+export const MenuIconRight = styled.div`
+  display: none;
 
   @media only screen and (max-width: 1350px) {
-    .menu-icon {
-      display: flex;
-    }
+    display: flex;
   }
   @media only screen and (max-width: 850px) {
-    .menu-icon {
-      display: none;
-    }
+    display: none;
   }
 `;
 
@@ -83,6 +84,19 @@ export const IconWrapper = styled.div`
   }
   .ManImg:hover {
     width: 31px;
+  }
+
+  @media only screen and (max-width: 850px) {
+    .CartImg {
+      margin-right: -50px;
+    }
+  }
+`;
+export const MenuIcon = styled.div`
+  display: none;
+
+  @media only screen and (max-width: 850px) {
+    display: flex;
   }
 `;
 
@@ -169,12 +183,6 @@ export const BackgroundImg = styled.div`
   }
 `;
 
-// Compare our models
-
-
-
-
-
 // Not Found Component
 
 export const NotFound = styled.img`
@@ -211,23 +219,6 @@ export const SideBarCon = styled.div`
 export const CostOfCar = styled.div`
   margin-top: 0;
 
-  /* .h3-style {
-    color: var(--text, #373737);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100%;
-    width: 240px;
-    height: 33px;
-    border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 20px;
-    border: none;
-    border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-    margin-bottom: 0;
-  } */
   h4 {
     color: var(--text, #373737);
     font-size: 14px;

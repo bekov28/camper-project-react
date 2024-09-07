@@ -9,6 +9,8 @@ import {
   LogoWrapper,
   Man,
   Menu,
+  MenuIcon,
+  MenuIconRight,
   MenuWrapper,
   NavLink,
 } from "../styles/style";
@@ -16,8 +18,9 @@ import logo from "../../assets/logo.png";
 import menu from "../../assets/menu-icon.svg";
 import cart from "../../assets/cart.png";
 import man from "../../assets/man.svg";
-import { Link } from "react-router-dom";
 import arrow from "../../assets/arrow.png";
+import TemporaryDrawer from "../SidebarAccordion/mobileDrawer";
+import Drawer from "@mui/material/Drawer";
 
 const Navbar = () => {
   return (
@@ -26,7 +29,9 @@ const Navbar = () => {
     <Container>
       <NavLink to={"/"}>
         <LogoWrapper>
-          <img src={menu} alt="menu-icon" className="menu-icon" />
+          <MenuIconRight>
+            <TemporaryDrawer />
+          </MenuIconRight>
           <Logo src={logo} />
         </LogoWrapper>
       </NavLink>
@@ -72,7 +77,9 @@ const Navbar = () => {
             <Arrow src={arrow} />
           </div>
         </Enlang>
-        <Menu src={menu} alt="menu-icon" className="menu-icon2" />
+        <MenuIcon>
+          <TemporaryDrawer />
+        </MenuIcon>
       </IconWrapper>
     </Container>
   );
