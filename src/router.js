@@ -27,6 +27,8 @@ import CompareTuning from "./components/Compare/CompareTuning";
 import CompareUsedCar from "./components/Compare/CompareUsedCar";
 import Swipeable from "./components/SidebarAccordion/mobileDrawer";
 import TemporaryDrawer from "./components/SidebarAccordion/mobileDrawer";
+import CompareAccordion from "./components/Compare/CompareAccordion/Accordion";
+
 
 const RouterComponent = () => {
   const location = useLocation();
@@ -38,7 +40,7 @@ const RouterComponent = () => {
       {!navbarContainer && <Navbar />}
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="test" element={<TemporaryDrawer />} />
+        <Route path="test" element={<CompareAccordion />} />
 
         <Route path="/motor" element={<MotorComponent />} />
         <Route path="/motor/:id" element={<MotorDetail />} />
