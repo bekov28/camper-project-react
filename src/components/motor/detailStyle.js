@@ -15,7 +15,7 @@ export const BackgroundCon = styled.div`
   align-items: center;
 
   h3 {
-    width: 509.208px;
+    width: 100%;
     height: 76.407px;
     flex-shrink: 0;
     color: #fff;
@@ -24,9 +24,6 @@ export const BackgroundCon = styled.div`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-  }
-
-  @media only screen and (max-width: 1450px) {
   }
 `;
 
@@ -47,8 +44,6 @@ export const ButtonCon = styled.div`
     height: 50.014px;
     flex-shrink: 0;
     border-radius: 10px;
-    /* background-color: transparent;
-    border: 1px solid #fff; */
     cursor: pointer;
   }
   .compareBtn {
@@ -79,7 +74,7 @@ export const ButtonCon = styled.div`
 `;
 
 export const CarImageCon = styled.div`
-  /* height: 381px; */
+  width: 100%;
   flex-shrink: 0;
   padding: 20px 40px;
   display: grid;
@@ -115,8 +110,6 @@ export const CarImgLeft = styled.div`
   }
 `;
 export const RightDetail = styled.div`
-  /* width: 600px; */
-  /* height: 360px; */
   flex-shrink: 0;
   border-radius: 10px;
   background: #fff;
@@ -124,10 +117,10 @@ export const RightDetail = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 
   @media only screen and (max-width: 650px) {
     width: 470px;
-    margin-left: 30px;
   }
 `;
 
@@ -172,7 +165,6 @@ export const CompanyMainCon = styled.div`
 `;
 
 export const CompanyCon = styled.div`
-  /* flex: 1; */
   h3 {
     color: var(--text, #373737);
     font-size: 18px;
@@ -208,7 +200,6 @@ export const ComfortCon = styled.div`
   margin-top: 100px;
 
   @media only screen and (max-width: 1450px) {
-    display: grid;
     grid-template-areas: "a";
   }
 `;
@@ -217,10 +208,10 @@ export const ComfortConLeft = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 40px;
+  padding: 10px;
+  width: 480px;
 
   h4 {
-    width: 500px;
     height: 169px;
     flex-shrink: 0;
     color: #373737;
@@ -243,20 +234,19 @@ export const ComfortConLeft = styled.div`
     p {
       color: white;
     }
-  }
 
-  @media only screen and (max-width: 1450px) {
-    display: none;
+    @media only screen and (max-width: 650px) {
+      width: 450px;
+    }
   }
 `;
 export const ComfortConRight = styled.div`
   display: flex;
-  width: 550px;
-  /* height: 477px; */
+  width: 100%;
 
   @media only screen and (max-width: 1450px) {
-    /* margin-top: 340px; */
     margin-right: 100px;
+    display: none;
   }
 `;
 
@@ -265,6 +255,7 @@ export const TidyingCon = styled.div`
   grid-template-areas: "a a";
   justify-content: center;
   margin-top: 50px;
+  width: 100%;
 
   @media only screen and (max-width: 1450px) {
     grid-template-areas: "a";
@@ -273,11 +264,8 @@ export const TidyingCon = styled.div`
 
 export const TidyingConLeft = styled.div`
   display: flex;
-  /* width: 550px; */
   width: 100%;
-  /* height: 477px; */
   flex-shrink: 0;
-  margin-right: 40px;
 
   @media only screen and (max-width: 1450px) {
     display: none;
@@ -289,7 +277,7 @@ export const TidyingConRight = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 10px;
-  margin-left: 120px;
+  margin-left: 80px;
   width: 500px;
 
   @media only screen and (max-width: 1450px) {
@@ -320,4 +308,18 @@ export const TidyingConRight = styled.div`
     font-weight: 600;
     line-height: normal;
   }
+`;
+export const MainDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const ItemReview = styled.div`
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
