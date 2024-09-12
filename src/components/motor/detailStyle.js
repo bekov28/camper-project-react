@@ -71,6 +71,9 @@ export const ButtonCon = styled.div`
   .compareBtn2 p {
     color: #006dab;
   }
+  .compareBtn2:hover {
+    width: 180px;
+  }
 `;
 
 export const CarImageCon = styled.div`
