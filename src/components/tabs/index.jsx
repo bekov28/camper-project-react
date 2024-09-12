@@ -19,6 +19,7 @@ import {
   QuestionCon,
   QuestionConLeft,
   QuestionConright,
+  SendContainer,
 } from "./style";
 import SelectBest from "./selectButton";
 import { campcar } from "../mock/motor";
@@ -27,6 +28,7 @@ import SendButton from "./Button";
 import QAForm2 from "./QAForm2";
 import FAQ from "./QAForm2";
 import map from "./assets/map.svg";
+import { EmailComponent } from "../mail";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -216,12 +218,9 @@ export default function BasicTabs() {
               </QuestionConLeft>
               <QuestionConright>
                 <p>Send a question</p>
-                <input type="text" placeholder="Your name" />
-                <input type="text" placeholder="Your email" />
-                <textarea>Your question</textarea>
-                <div className="SendBtn">
-                  <SendButton />
-                </div>
+                <SendContainer className="SendCon">
+                  <EmailComponent />
+                </SendContainer>
               </QuestionConright>
             </QuestionCon>
           </CustomTabPanel>
@@ -233,12 +232,9 @@ export default function BasicTabs() {
               </QuestionConLeft>
               <QuestionConright>
                 <p>Send a question</p>
-                <input type="text" placeholder="Your name" />
-                <input type="text" placeholder="Your email" />
-                <textarea>Your question</textarea>
-                <div className="SendBtn">
-                  <SendButton />
-                </div>
+                <SendContainer className="SendCon">
+                  <EmailComponent />
+                </SendContainer>
               </QuestionConright>
             </QuestionCon>
           </CustomTabPanel>
@@ -263,12 +259,9 @@ export default function BasicTabs() {
               </QuestionConLeft>
               <QuestionConright>
                 <p>Send a question</p>
-                <input type="text" placeholder="Your name" />
-                <input type="text" placeholder="Your email" />
-                <textarea>Your question</textarea>
-                <div className="SendBtn">
-                  <SendButton />
-                </div>
+                <SendContainer className="SendCon">
+                  <EmailComponent />
+                </SendContainer>
               </QuestionConright>
             </QuestionCon>
           </CustomTabPanel>

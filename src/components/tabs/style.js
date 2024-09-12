@@ -101,25 +101,28 @@ export const IdCon = styled.div`
 
 export const QuestionCon = styled.div`
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 
   @media only screen and (max-width: 1220px) {
     flex-direction: column;
-    justify-content: center;
   }
 `;
 
 export const QuestionConLeft = styled.div`
   margin-right: 70px;
+  flex: 1;
 
   @media only screen and (max-width: 1220px) {
     width: 100%;
+    margin-right: 0;
   }
 `;
 export const QuestionConright = styled.div`
+  flex: 1;
   display: flex;
   flex-direction: column;
-  width: 450px;
-  height: 432px;
+  height: auto;
   flex-shrink: 0;
   align-items: center;
   border-radius: 10px;
@@ -134,11 +137,12 @@ export const QuestionConright = styled.div`
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 130%; /* 31.2px */
+    line-height: 130%;
   }
 
-  input {
-    width: 390px;
+  input,
+  textarea {
+    width: 100%;
     height: 50px;
     flex-shrink: 0;
     padding: 10px;
@@ -149,39 +153,49 @@ export const QuestionConright = styled.div`
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 100%; /* 14px */
+    line-height: 100%;
     border: none;
     background-color: #f5f5f5;
   }
 
   textarea {
-    width: 390px;
     height: 120px;
-    flex-shrink: 0;
-    margin-top: 20px;
-    border-radius: 8px;
-    padding: 10px;
-    color: rgba(55, 55, 55, 0.7);
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 100%; /* 14px */
-    border: none;
-    background-color: #f5f5f5;
-  }
-
-  .SendBtn {
-    margin-top: 20px;
-    width: 100%;
-  }
-  .SendBtn:hover button {
-    background-color: #006dab;
-    color: #fff;
   }
 
   @media only screen and (max-width: 1220px) {
     margin-top: 30px;
+    width: 100%;
+  }
+`;
+
+export const SendContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .SendBtn:hover {
+    background-color: #0e90db;
+    color: #fff;
+  }
+  .SendBtn {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    background-color: #006dab;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+  }
+
+  @media only screen and (max-width: 1220px) {
     width: 100%;
   }
 `;
