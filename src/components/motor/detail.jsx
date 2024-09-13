@@ -24,8 +24,7 @@ import {
   TidyingConLeft,
   TidyingConRight,
 } from "./detailStyle";
-import { Button } from "../styles/style";
-import BasicTabs from "../tabs";
+import BasicTabs from "../tabs/BasicTabsMotor";
 
 const MotorDetail = () => {
   const { id } = useParams();

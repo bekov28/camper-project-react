@@ -29,6 +29,7 @@ import QAForm2 from "./QAForm2";
 import FAQ from "./QAForm2";
 import map from "./assets/map.svg";
 import { EmailComponent } from "../mail";
+import { campcarCaravan } from "../mock/mockdatacaravan";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -59,9 +60,9 @@ function a11yProps(index) {
   };
 }
 
-export default function BasicTabs() {
+export default function BasicTabsCaravan() {
   const [value, setValue] = React.useState(0);
-  const data = campcar.maindata;
+  const data = campcarCaravan.maindata;
   console.log(data);
 
   const handleChange = (event, newValue) => {
@@ -169,6 +170,8 @@ export default function BasicTabs() {
                           overflow: "hidden",
                           width: "auto",
                           heigth: "100px",
+                          display: "flex",
+                          gap: "5px",
                         }}
                       >
                         <div>

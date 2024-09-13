@@ -5,7 +5,6 @@ export const VmenuWrapper = styled.div`
   flex-direction: column;
   gap: 20px;
   margin-top: 20px;
-  border: 1px solid black;
 
   @media only screen and (max-width: 800px) {
     justify-content: center;

@@ -20,15 +20,12 @@ import DetailCartCaravan from "./components/caravan/detailCart";
 import DetailCartTuning from "./components/caravan/detailCart";
 import DetailCartUsedCar from "./components/usedCar/detailCart";
 import MainPage from "./components/main";
-import Checkboxes from "./components/SidebarAccordion/checkbox";
 import ComparePage from "./components/Compare";
 import CompareCaravan from "./components/Compare/CompareCaravan";
 import CompareTuning from "./components/Compare/CompareTuning";
 import CompareUsedCar from "./components/Compare/CompareUsedCar";
-import Swipeable from "./components/SidebarAccordion/mobileDrawer";
-import TemporaryDrawer from "./components/SidebarAccordion/mobileDrawer";
 import CompareAccordion from "./components/Compare/CompareAccordion/Accordion";
-
+import ScrollToTop from "./components/ScrollTop";
 
 const RouterComponent = () => {
   const location = useLocation();
@@ -38,6 +35,7 @@ const RouterComponent = () => {
   return (
     <>
       {!navbarContainer && <Navbar />}
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="test" element={<CompareAccordion />} />
