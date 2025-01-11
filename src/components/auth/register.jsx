@@ -16,7 +16,9 @@ const RegisterComponent = () => {
       <MainRegisterCon>
         <RegisterDiv>
           <p>Sign Up</p>
-          <img src={XImage} />
+          <NavLink to={"/"}>
+            <img src={XImage} />
+          </NavLink>
         </RegisterDiv>
         <InputCon>
           <p>Email</p>
@@ -31,7 +33,7 @@ const RegisterComponent = () => {
           <input type="checkbox" />
           <p>Keep me logged in</p>
         </AlignCon>
-        <NavLink to={"/login"}>
+        <NavLink to={"/"}>
           <SingInBtn>SIGN UP</SingInBtn>
         </NavLink>
       </MainRegisterCon>

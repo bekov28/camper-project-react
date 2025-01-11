@@ -12,7 +12,7 @@ import blog2 from "./assets/blog2.svg";
 import blog3 from "./assets/blog3.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import arrow from "./assets/arrow.svg";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from "react-responsive-carousel";
 import back1 from "./assets/back1.svg";
 import back2 from "./assets/back2.svg";

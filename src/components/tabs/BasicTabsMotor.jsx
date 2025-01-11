@@ -163,7 +163,6 @@ export default function BasicTabs() {
               <div>
                 {data.slice(0, 6).map((item, index) => (
                   <div key={item.id}>
-                    {" "}
                     <MainCarCon>
                       <CarContainer
                         style={{
@@ -226,8 +225,7 @@ export default function BasicTabs() {
             </QuestionCon>
           </CustomTabPanel>
           <CustomTabPanel value={value} index={2}>
-            <QuestionCon>
-              {" "}
+            <QuestionCon>       
               <QuestionConLeft>
                 <FAQ />
               </QuestionConLeft>
@@ -241,7 +239,6 @@ export default function BasicTabs() {
           </CustomTabPanel>
           <CustomTabPanel value={value} index={3}>
             <QuestionCon>
-              {" "}
               <QuestionConLeft>
                 <ContactLeft>
                   <img src={map} />

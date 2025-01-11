@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 export const MainMainCon = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 `;
 
 export const MainCon = styled.div`
@@ -12,7 +14,7 @@ export const MainCon = styled.div`
   background: #fff;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   height: 520px;
-  margin: 100px 0px;
+  margin: 50px 0px;
   padding: 20px 30px;
 
   p {
@@ -24,6 +26,17 @@ export const MainCon = styled.div`
     line-height: normal;
   }
 `;
+export const DemoCon = styled.div`
+ background-color: white;
+  width: 230px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 5px;
+  h3 {
+    margin-bottom: 5px;
+  }
+`;
+
 export const InputCon = styled.div`
   margin-top: 10px;
   p {
@@ -49,6 +62,7 @@ export const InputCon = styled.div`
 export const KeepMeCon = styled.div`
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
 
   p {
     color: #373737;

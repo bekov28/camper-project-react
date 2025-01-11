@@ -44,10 +44,9 @@ export default function TemporaryDrawer() {
           "Tuning",
           "Second Hand",
           "Camping Place",
-          "Sign in",
           "My orders",
+          "Sign in",
           "Log out",
-          "Settings",
           "En",
         ].map((text, index) => (
           <ListItem key={text} disablePadding>
@@ -59,7 +58,7 @@ export default function TemporaryDrawer() {
                     fontFamily: "Montserrat",
                     color: "#373737",
                     fontWeight: "550",
-                    fontStyle: "normal"
+                    fontStyle: "normal",
                   },
                 }}
               />

@@ -18,7 +18,7 @@ import {
 import { Link } from "react-router-dom";
 import star from "../../../assets/star.svg";
 import { campcar } from "../../mock/motor";
-import itemarrow from "../../../assets/item-arrow.svg";
+
 
 const Hmenu = () => {
   const data = campcar.maindata;

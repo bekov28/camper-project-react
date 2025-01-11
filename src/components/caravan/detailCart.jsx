@@ -18,8 +18,6 @@ const DetailCartCaravan = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // width: "811px",
-    // height: "406px",
   };
 
   return (

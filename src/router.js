@@ -30,14 +30,15 @@ import ScrollToTop from "./components/ScrollTop";
 const RouterComponent = () => {
   const location = useLocation();
   const navbarContainer =
-    location.pathname === "/login" || location.pathname === "/register";
+    location.pathname === "/" || location.pathname === "/register";
 
   return (
     <>
       {!navbarContainer && <Navbar />}
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<MainPage />} />
+        <Route path="/" element={<LoginComponent />} />
+        <Route path="/main" element={<MainPage />} />
         <Route path="test" element={<CompareAccordion />} />
 
         <Route path="/motor" element={<MotorComponent />} />
@@ -63,7 +64,7 @@ const RouterComponent = () => {
         <Route path="/camping" element={<CampingPlaceComponent />} />
         <Route path="/camping/:id" element={<CampingDetail />} />
 
-        <Route path="/login" element={<LoginComponent />} />
+        {/* <Route path="/login" element={<LoginComponent />} /> */}
         <Route path="/register" element={<RegisterComponent />} />
 
         <Route path="*" element={<NotFoundComponent />} />

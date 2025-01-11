@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <MainFooterCon>
       <CamperConTwo>
-        <Link to={"/"} style={{textDecoration:"none"}}>
+        <Link to={"/main"} style={{textDecoration:"none"}}>
           <p>Camper</p>
         </Link>
         <Link to={"/"}>

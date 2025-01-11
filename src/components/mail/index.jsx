@@ -1,8 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "../tabs/style";
-import { SendBtn, SendContainer } from "../tabs/style";
-import { Alert } from "@mui/material";
 import Button from "@mui/joy/Button";
 import Snackbar from "@mui/joy/Snackbar";
 import PlaylistAddCheckCircleRoundedIcon from "@mui/icons-material/PlaylistAddCheckCircleRounded";
